@@ -6,17 +6,17 @@ Zaawansowany obiektowy Agent-Based Model (ABM) symulujący demografię i multimo
 
 ## Główne Cechy
 
-✅ **Dane rzeczywiste**: 15 najczęstszych chorób wyekstrahowanych z danych epidemiologicznych (Excel)
-✅ **Modularna architektura**: Czysty kod Python z typowaniem (`typing`)
-✅ **Pełna symulacja demograficzna**:
+ **Dane rzeczywiste**: 15 najczęstszych chorób wyekstrahowanych z danych epidemiologicznych (Excel)
+ **Modularna architektura**: Czysty kod Python z typowaniem (`typing`)
+ **Pełna symulacja demograficzna**:
   - Starzenie się (1 miesiąc na iterację)
   - Narodziny (tylko dla kobiet 18-40 lat)
   - Zgony (zależne od wieku, liczby chorób, disability score)
   - Tworzenie/rozbijanie gospodarstw domowych
   - Opuszczanie gospodarstw przez dorosłe dzieci
-✅ **Multimorbidność**: Model progresji chorób, liczba chorób, disability score
-✅ **Statystyki roczne**: Zbieranie danych co 12 miesięcy
-✅ **Interaktywne wizualizacje**: Plotly z suwakami rocznymi
+ **Multimorbidność**: Model progresji chorób, liczba chorób, disability score
+ **Statystyki roczne**: Zbieranie danych co 12 miesięcy
+ **Interaktywne wizualizacje**: Plotly z suwakami rocznymi
 
 ## Struktura Projektu
 
@@ -207,12 +207,12 @@ engine.household_split_probability = 0.001     # 0.1% miesięcznie
 
 ## Wymagania Jakościowe ✓
 
-- ✅ **Typing**: Wszystkie funkcje mają type hints
-- ✅ **Docstrings**: Pełna dokumentacja wszystkich klas i metod
-- ✅ **Modularność**: Czysty podział na klasy i moduły
-- ✅ **Brak kodu proceduralnego**: Tylko w `main.py`
-- ✅ **Separacja logiki i wizualizacji**: Osobne moduły
-- ✅ **Pełna uruchamialność**: Działa bez błędów
+-  **Typing**: Wszystkie funkcje mają type hints
+-  **Docstrings**: Pełna dokumentacja wszystkich klas i metod
+-  **Modularność**: Czysty podział na klasy i moduły
+-  **Brak kodu proceduralnego**: Tylko w `main.py`
+-  **Separacja logiki i wizualizacji**: Osobne moduły
+-  **Pełna uruchamialność**: Działa bez błędów
 
 ## Przykładowe Rezultaty
 
