@@ -6,7 +6,7 @@ Zaawansowany obiektowy Agent-Based Model (ABM) symulujący demografię i multimo
 
 ## Główne Cechy
 
-✅ **Dane rzeczywiste**: 15 najczęstszych chorób wyekstrahowanych z danych epidemiologicznych (Excel)
+✅ **Dane rzeczywiste**: tylko 2–3 wybrane choroby (z epidemiologii) – reszta pominięta
 ✅ **Modularna architektura**: Czysty kod Python z typowaniem (`typing`)
 ✅ **Pełna symulacja demograficzna**:
   - Starzenie się (1 miesiąc na iterację)
@@ -74,8 +74,8 @@ Reprezentuje gospodarstwo domowe.
 Zarządza chorobami w symulacji.
 
 **Stale**:
-- `DEFAULT_DISEASES` - 15 głównych chorób
-- `DEFAULT_PREVALENCE` - Częstości epidemiologiczne
+- `DEFAULT_DISEASES` - niewielka lista chorób (domyślnie 2–3 pozycje)
+- `DEFAULT_PREVALENCE` - Częstości epidemiologiczne dla tych chorób
 - `DEFAULT_DISABILITY_WEIGHTS` - Wagi disability (0-1)
 
 **Metody**:

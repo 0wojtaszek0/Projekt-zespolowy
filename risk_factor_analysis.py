@@ -18,9 +18,9 @@ import networkx as nx
 
 # --- Definicja danych (przykładowe, można podmienić z DiseaseModel) ---
 risk_factors = {
-    "Palenie": {"Migrena": 0.20, "Kamica żółciowa": 0.10},
-    "Brak aktywności": {"Otyłość": 0.30, "Stłuszczenie wątroby": 0.25},
-    "Dieta wysokotłuszczowa": {"Otyłość": 0.40, "Kamica żółciowa": 0.20},
+    "Palenie": {"Hypercholesterolemia": 0.20},
+    "Brak aktywności": {"Otyłość": 0.30, "Osteoarthritis": 0.25},
+    "Dieta wysokotłuszczowa": {"Otyłość": 0.40, "Hypercholesterolemia": 0.20},
 }
 
 

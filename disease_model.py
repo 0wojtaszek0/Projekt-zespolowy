@@ -16,69 +16,35 @@ class DiseaseModel:
         disease_prevalence: Dictionary mapping disease names to prevalence rates
     """
     
-    # Top 15 diseases extracted from epidemiological data
+    # Top diseases extracted from epidemiological data
+    # Note: project now focuses on only two or three conditions.
+    # Here we include three most prevalent disorders for simplicity.
     DEFAULT_DISEASES = [
         "Obesity",
         "Hypercholesterolemia",
         "Osteoarthritis",
-        "Hypertension",
-        "Allergy",
-        "Focal thyroid lesions",
-        "Lower limb varicose veins",
-        "Rectal varices",
-        "Hypertriglyceridemia",
-        "Gastroesophageal reflux disease",
-        "Peptic ulcer disease",
-        "Discopathy",
-        "Migraine",
-        "Cholelithiasis",
-        "Fatty liver disease",
     ]
     
-    # Prevalence rates (%) from epidemiological data
+    # Prevalence rates (%) for the selected diseases
     DEFAULT_PREVALENCE = {
         "Obesity": 44.0,
         "Hypercholesterolemia": 33.1,
         "Osteoarthritis": 30.5,
-        "Hypertension": 28.5,
-        "Allergy": 22.0,
-        "Focal thyroid lesions": 18.1,
-        "Lower limb varicose veins": 17.7,
-        "Rectal varices": 17.7,
-        "Hypertriglyceridemia": 17.1,
-        "Gastroesophageal reflux disease": 14.8,
-        "Peptic ulcer disease": 12.1,
-        "Discopathy": 11.7,
-        "Migraine": 10.9,
-        "Cholelithiasis": 10.1,
-        "Fatty liver disease": 9.2,
     }
     
-    # Disability weights for each disease (0-1 scale)
+    # Disability weights for each selected disease (0-1 scale)
     # Higher weight = more severe disability
     DEFAULT_DISABILITY_WEIGHTS = {
         "Obesity": 0.15,
         "Hypercholesterolemia": 0.05,
         "Osteoarthritis": 0.20,
-        "Hypertension": 0.10,
-        "Allergy": 0.03,
-        "Focal thyroid lesions": 0.05,
-        "Lower limb varicose veins": 0.12,
-        "Rectal varices": 0.12,
-        "Hypertriglyceridemia": 0.08,
-        "Gastroesophageal reflux disease": 0.10,
-        "Peptic ulcer disease": 0.12,
-        "Discopathy": 0.18,
-        "Migraine": 0.08,
-        "Cholelithiasis": 0.10,
-        "Fatty liver disease": 0.15,
     }
     
-    # Risk factors and their impact on diseases
+    # Risk factors and their impact on the (now limited) disease set
     DEFAULT_RISK_FACTORS = {
-        "Smoking": {"Migraine": 0.2, "Cholelithiasis": 0.1},
-        "Physical inactivity": {"Obesity": 0.3, "Fatty liver disease": 0.25},
-        "High-fat diet": {"Obesity": 0.4, "Cholelithiasis": 0.2},
+        "Smoking": {"Hypercholesterolemia": 0.2},
+        "Physical inactivity": {"Obesity": 0.3, "Osteoarthritis": 0.25},
+        "High-fat diet": {"Obesity": 0.4, "Hypercholesterolemia": 0.2},
     }
 
     def __init__(
@@ -97,15 +63,18 @@ class DiseaseModel:
             prevalence_rates: Dictionary mapping disease names to prevalence percentages
             risk_factors: Dictionary mapping risk factors to their impact on diseases
         """
+        # if user supplied a specific disease list, prune other dictionaries
         self.diseases: List[str] = diseases or self.DEFAULT_DISEASES.copy()
+        # filter associated maps to avoid mismatches
         self.disability_weights: Dict[str, float] = (
-            disability_weights or self.DEFAULT_DISABILITY_WEIGHTS.copy()
+            {k: v for k, v in (disability_weights or self.DEFAULT_DISABILITY_WEIGHTS).items() if k in self.diseases}
         )
         self.disease_prevalence: Dict[str, float] = (
-            prevalence_rates or self.DEFAULT_PREVALENCE.copy()
+            {k: v for k, v in (prevalence_rates or self.DEFAULT_PREVALENCE).items() if k in self.diseases}
         )
         self.risk_factors: Dict[str, Dict[str, float]] = (
-            risk_factors or self.DEFAULT_RISK_FACTORS.copy()
+            {rf: {d: imp for d, imp in diseases.items() if d in self.diseases}
+             for rf, diseases in (risk_factors or self.DEFAULT_RISK_FACTORS).items()}
         )
 
     def get_initial_diseases(self) -> Dict[str, int]:

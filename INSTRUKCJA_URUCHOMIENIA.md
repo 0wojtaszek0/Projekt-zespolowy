@@ -43,7 +43,7 @@ python3 main.py
 ```
 
 Symulacja będzie:
-1. Inicjować model choroby z 15 chorobami
+1. Inicjować model choroby z tylko 2–3 chorobami
 2. Tworzyć 50,000 syntetycznych obywateli
 3. Uruchamiać 50-letnią symulację (600 miesięcy)
 4. Zbierać statystyki rocznie

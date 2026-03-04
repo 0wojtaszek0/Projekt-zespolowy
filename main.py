@@ -24,7 +24,7 @@ def main() -> None:
     print("=" * 70)
     print()
     
-    # Initialize disease model with top 15 diseases
+    # Initialize disease model (now only a couple conditions)
     print("Initializing disease model...")
     disease_model = DiseaseModel()
     print(f"Selected {disease_model.get_disease_count()} diseases for simulation:")
