@@ -1,0 +1,51 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Raport z aktualnego stanu prac nad projektem}
+\author{}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Aktualny stan prac}
+\begin{itemize}
+    \item \textbf{Symulacja demograficzna:} Została pomyślnie uruchomiona i przeprowadzona dla populacji 50,000 agentów na przestrzeni 50 lat. Wyniki symulacji obejmują:
+    \begin{itemize}
+        \item Piramidy wieku (statyczne i animowane),
+        \item Trendy populacyjne,
+        \item Dynamikę gospodarstw domowych,
+        \item Rozkład płci w czasie.
+    \end{itemize}
+    \item \textbf{Optymalizacja parametrów:} Przeprowadzono proces GridSearch w celu znalezienia optymalnych parametrów modelu (np. wskaźników urodzeń, śmiertelności, migracji). Wyniki optymalizacji zostały uwzględnione w symulacji.
+    \item \textbf{Dane wejściowe:} Dane demograficzne zostały przygotowane w oparciu o realistyczne struktury populacyjne inspirowane danymi GUS. Uwzględniono:
+    \begin{itemize}
+        \item Tabele śmiertelności i płodności,
+        \item Rozkład wiekowy i płciowy,
+        \item Czynniki ryzyka i choroby.
+    \end{itemize}
+\end{itemize}
+
+\section*{2. Gotowość do etapu modelowania}
+\begin{itemize}
+    \item Dane są w pełni przygotowane do rozpoczęcia etapu modelowania. Symulacja dostarcza szczegółowych wyników, które mogą być wykorzystane do dalszej analizy i modelowania.
+    \item Wyniki są dostępne w formie interaktywnych wizualizacji oraz szczegółowych statystyk, co ułatwia ich interpretację.
+\end{itemize}
+
+\section*{3. Ewentualne trudności i przeszkody}
+\begin{itemize}
+    \item \textbf{Brak problemów:} Wszystkie etapy prac przebiegły bez zakłóceń. Nie napotkano trudności technicznych ani merytorycznych, które mogłyby wpłynąć na realizację projektu.
+    \item \textbf{Uwagi:} Wprowadzone zmiany w modelu (np. zwiększenie śmiertelności kobiet) zostały przetestowane i nie wpłynęły negatywnie na stabilność symulacji.
+\end{itemize}
+
+\section*{4. Podsumowanie}
+Projekt jest na dobrej drodze do realizacji. Dane są gotowe do dalszego etapu modelowania, a dotychczasowe wyniki potwierdzają poprawność założeń i implementacji. W razie potrzeby możliwe jest dalsze dostosowanie parametrów modelu lub rozszerzenie analizy.
+
+\vspace{1cm}
+\noindent Jeśli potrzebne są dodatkowe informacje lub szczegółowe wyniki, proszę o kontakt.
+
+\end{document}
