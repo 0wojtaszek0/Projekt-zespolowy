@@ -6,7 +6,7 @@ Zaawansowany obiektowy Agent-Based Model (ABM) symulujący demografię i multimo
 
 ## Główne Cechy
 
-✅ **Dane rzeczywiste**: 15 najczęstszych chorób wyekstrahowanych z danych epidemiologicznych (Excel)
+✅ **Dane rzeczywiste**: 3 choroby główne z grafu zależności (Cardiovascular Disease, Type 2 Diabetes, Chronic Respiratory Disease)
 ✅ **Modularna architektura**: Czysty kod Python z typowaniem (`typing`)
 ✅ **Pełna symulacja demograficzna**:
   - Starzenie się (1 miesiąc na iterację)
@@ -149,11 +149,10 @@ Plik Excel (`population_data.xlsx`) powinien zawierać:
 - `age` - Wiek w latach (20-80)
 - `household_id` - ID gospodarstwa
 - `zone_id` - ID strefy (1-3)
-- 15 kolumn chorób (0/1):
-  - Obesity, Hypercholesterolemia, Osteoarthritis, Hypertension, Allergy
-  - Focal thyroid lesions, Lower limb varicose veins, Rectal varices
-  - Hypertriglyceridemia, Gastroesophageal reflux disease, Peptic ulcer disease
-  - Discopathy, Migraine, Cholelithiasis, Fatty liver disease
+- choroby (0/1):
+  - Cardiovascular Disease, Type 2 Diabetes, Chronic Respiratory Disease
+
+> Uwaga: w kodzie domyślnie użyto trzech chorób z grafu zależności chorób.
 
 ## Uruchamianie
 

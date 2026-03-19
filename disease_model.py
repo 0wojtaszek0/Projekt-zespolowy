@@ -16,25 +16,25 @@ class DiseaseModel:
         disease_prevalence: Dictionary mapping disease names to prevalence rates
     """
     
-    # Top 3 diseases selected for the simulation
+    # Top 3 diseases selected for the simulation (dependency graph diseases)
     DEFAULT_DISEASES = [
-        "Diabetes",
-        "Hypertension",
-        "Osteoarthritis",
+        "Cardiovascular Disease",
+        "Type 2 Diabetes",
+        "Chronic Respiratory Disease",
     ]
 
     # Prevalence rates (%) for the selected diseases
     DEFAULT_PREVALENCE = {
-        "Diabetes": 10.0,
-        "Hypertension": 28.5,
-        "Osteoarthritis": 30.5,
+        "Cardiovascular Disease": 25.0,
+        "Type 2 Diabetes": 10.0,
+        "Chronic Respiratory Disease": 15.0,
     }
 
     # Disability weights for the selected diseases (0-1 scale)
     DEFAULT_DISABILITY_WEIGHTS = {
-        "Diabetes": 0.20,
-        "Hypertension": 0.10,
-        "Osteoarthritis": 0.20,
+        "Cardiovascular Disease": 0.25,
+        "Type 2 Diabetes": 0.20,
+        "Chronic Respiratory Disease": 0.22,
     }
     
     def __init__(
