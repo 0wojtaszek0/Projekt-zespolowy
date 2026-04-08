@@ -6,6 +6,7 @@ Handles aging, disease progression, mortality risk, and fertility.
 from typing import Dict, Optional
 import random
 import math
+from disease_model import DiseaseModel
 
 
 class Citizen:
@@ -22,6 +23,8 @@ class Citizen:
         diseases: Dictionary of disease names and their stage (0/1)
         risk_factors: Dictionary of risk factors and their presence (0/1)
         disability_score: Computed disability score based on diseases
+        health_state: Current health state of the citizen
+        rng: Random number generator
     """
     
     # Class variable for unique ID generation
@@ -46,6 +49,7 @@ class Citizen:
         zone_id: int = 1,
         diseases: Optional[Dict[str, int]] = None,
         risk_factors: Optional[Dict[str, int]] = None,
+        health_state: str = "healthy",
     ) -> None:
         """
         Initialize a citizen.
@@ -57,6 +61,7 @@ class Citizen:
             zone_id: ID of zone
             diseases: Dictionary of diseases and their presence (0/1)
             risk_factors: Dictionary of risk factors and their presence (0/1)
+            health_state: Current health state of the citizen
         """
         Citizen._id_counter += 1
         self.id: int = Citizen._id_counter
@@ -68,6 +73,8 @@ class Citizen:
         self.diseases: Dict[str, int] = diseases or {}
         self.risk_factors: Dict[str, int] = risk_factors or {rf: 0 for rf in self.DEFAULT_RISK_FACTORS}
         self.disability_score: float = 0.0
+        self.health_state: str = health_state
+        self.rng: random.Random = random.Random()
         self.compute_disability_score()
     
     def age_one_month(self) -> None:
@@ -225,6 +232,30 @@ class Citizen:
         
         prob = self.fertility_probability()
         return rng.random() < prob
+    
+    def update_health_state(self, disease_model: 'DiseaseModel') -> None:
+        """
+        Update the health state of the citizen based on transition probabilities.
+
+        Args:
+            disease_model: Instance of DiseaseModel to get transition probabilities
+        """
+        if not self.alive:
+            return
+
+        current_state = self.health_state
+        for next_state in DiseaseModel.HEALTH_STATES:
+            if current_state == next_state:
+                continue
+
+            transition_prob = disease_model.get_transition_probability(current_state, next_state)
+            if self.rng.random() < transition_prob:
+                self.health_state = next_state
+
+                # If the citizen transitions to "severe" or "death", update alive status
+                if self.health_state == "death":
+                    self.alive = False
+                break
     
     def __repr__(self) -> str:
         """String representation for debugging."""

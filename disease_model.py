@@ -14,27 +14,41 @@ class DiseaseModel:
         diseases: List of selected disease names
         disability_weights: Dictionary mapping disease names to disability weights
         disease_prevalence: Dictionary mapping disease names to prevalence rates
+        transition_probabilities: Dictionary mapping health states to transition probabilities
     """
     
-    # Top 3 diseases selected for the simulation (dependency graph diseases)
+    # Top 3 diseases selected for the simulation
     DEFAULT_DISEASES = [
-        "Cardiovascular Disease",
-        "Type 2 Diabetes",
-        "Chronic Respiratory Disease",
+        "CVD",
+        "Lung Cancer",
+        "Hypercholesterolemia",
     ]
 
     # Prevalence rates (%) for the selected diseases
     DEFAULT_PREVALENCE = {
-        "Cardiovascular Disease": 25.0,
-        "Type 2 Diabetes": 10.0,
-        "Chronic Respiratory Disease": 15.0,
+        "CVD": 35.0,
+        "Lung Cancer": 4.5,
+        "Hypercholesterolemia": 25.0,
     }
 
     # Disability weights for the selected diseases (0-1 scale)
     DEFAULT_DISABILITY_WEIGHTS = {
-        "Cardiovascular Disease": 0.25,
-        "Type 2 Diabetes": 0.20,
-        "Chronic Respiratory Disease": 0.22,
+        "CVD": 0.25,
+        "Lung Cancer": 0.55,
+        "Hypercholesterolemia": 0.08,
+    }
+
+    # Define health states
+    HEALTH_STATES = ["healthy", "exposed", "infected", "severe", "recovered"]
+
+    # Transition probabilities between health states
+    DEFAULT_TRANSITION_PROBABILITIES = {
+        "healthy_to_exposed": 0.01,
+        "exposed_to_infected": 0.1,
+        "infected_to_severe": 0.05,
+        "severe_to_recovered": 0.2,
+        "infected_to_recovered": 0.15,
+        "severe_to_death": 0.1
     }
     
     def __init__(
@@ -42,6 +56,7 @@ class DiseaseModel:
         diseases: Optional[List[str]] = None,
         disability_weights: Optional[Dict[str, float]] = None,
         prevalence_rates: Optional[Dict[str, float]] = None,
+        transition_probabilities: Optional[Dict[str, float]] = None,
     ) -> None:
         """
         Initialize the disease model.
@@ -50,6 +65,7 @@ class DiseaseModel:
             diseases: List of disease names (defaults to top 3)
             disability_weights: Dictionary mapping disease names to disability scores
             prevalence_rates: Dictionary mapping disease names to prevalence percentages
+            transition_probabilities: Dictionary mapping health states to transition probabilities
         """
         self.diseases: List[str] = diseases or self.DEFAULT_DISEASES.copy()
         self.disability_weights: Dict[str, float] = (
@@ -57,6 +73,9 @@ class DiseaseModel:
         )
         self.disease_prevalence: Dict[str, float] = (
             prevalence_rates or self.DEFAULT_PREVALENCE.copy()
+        )
+        self.transition_probabilities: Dict[str, float] = (
+            transition_probabilities or self.DEFAULT_TRANSITION_PROBABILITIES.copy()
         )
     
     def get_initial_diseases(self) -> Dict[str, int]:
@@ -100,6 +119,26 @@ class DiseaseModel:
         """Get all disability weights as a dictionary."""
         return self.disability_weights.copy()
     
+    def get_transition_probability(self, from_state: str, to_state: str) -> float:
+        """
+        Get the transition probability between two health states.
+
+        Args:
+            from_state: Current health state
+            to_state: Target health state
+
+        Returns:
+            Probability of transitioning from `from_state` to `to_state`
+        """
+        key = f"{from_state}_to_{to_state}"
+        return self.transition_probabilities.get(key, 0.0)
+    
     def __repr__(self) -> str:
-        """String representation for debugging."""
-        return f"DiseaseModel(diseases={self.get_disease_count()}, total_prevalence={sum(self.disease_prevalence.values()):.1f}%)"
+        """
+        String representation for debugging.
+        """
+        disease_count = self.get_disease_count()
+        total_prevalence = sum(self.disease_prevalence.values())
+        return "DiseaseModel(diseases={}, total_prevalence={:.1f}%)".format(
+            disease_count, total_prevalence
+        )
