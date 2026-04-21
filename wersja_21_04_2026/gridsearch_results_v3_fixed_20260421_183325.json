@@ -1,0 +1,1298 @@
+[
+  {
+    "combo": 1,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 0.1
+    },
+    "score": 0.30583877290445816
+  },
+  {
+    "combo": 2,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 0.2531364429574736
+  },
+  {
+    "combo": 3,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 0.20161512885917676
+  },
+  {
+    "combo": 4,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 0.15124889324533666
+  },
+  {
+    "combo": 5,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 0.10201235677421704
+  },
+  {
+    "combo": 6,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 0.053880686371210615
+  },
+  {
+    "combo": 7,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 0.0068295837158203355
+  },
+  {
+    "combo": 8,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 0.03916472603388043
+  },
+  {
+    "combo": 9,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 0.08412550528409132
+  },
+  {
+    "combo": 10,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 0.12807551482013776
+  },
+  {
+    "combo": 11,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 0.17103702439794494
+  },
+  {
+    "combo": 12,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.1,
+      "mortality_multiplier": 3.5
+    },
+    "score": 0.2130318231166381
+  },
+  {
+    "combo": 13,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 0.1
+    },
+    "score": 1.6533295476062064
+  },
+  {
+    "combo": 14,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 1.5705853704939683
+  },
+  {
+    "combo": 15,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 1.4896786168497222
+  },
+  {
+    "combo": 16,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 1.4105692992452108
+  },
+  {
+    "combo": 17,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 1.333218282746786
+  },
+  {
+    "combo": 18,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 1.2575872671196104
+  },
+  {
+    "combo": 19,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 1.183638769395466
+  },
+  {
+    "combo": 20,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 1.1113361067968257
+  },
+  {
+    "combo": 21,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 1.0406433800101549
+  },
+  {
+    "combo": 22,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 0.9715254568013986
+  },
+  {
+    "combo": 23,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 0.9039479559667997
+  },
+  {
+    "combo": 24,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.40909090909090906,
+      "mortality_multiplier": 3.5
+    },
+    "score": 0.8378772316123877
+  },
+  {
+    "combo": 25,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 0.1
+    },
+    "score": 3.764027393508742
+  },
+  {
+    "combo": 26,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 3.634650123656271
+  },
+  {
+    "combo": 27,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 3.5081200105717034
+  },
+  {
+    "combo": 28,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 3.3843756490196286
+  },
+  {
+    "combo": 29,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 3.2633569310980177
+  },
+  {
+    "combo": 30,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 3.1450050194000325
+  },
+  {
+    "combo": 31,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 3.0292623207191878
+  },
+  {
+    "combo": 32,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 2.916072460287179
+  },
+  {
+    "combo": 33,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 2.8053802565337262
+  },
+  {
+    "combo": 34,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 2.6971316963581775
+  },
+  {
+    "combo": 35,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 2.5912739109026433
+  },
+  {
+    "combo": 36,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 0.7181818181818181,
+      "mortality_multiplier": 3.5
+    },
+    "score": 2.4877551518168093
+  },
+  {
+    "combo": 37,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 0.1
+    },
+    "score": 7.056772196090633
+  },
+  {
+    "combo": 38,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 6.855295997509323
+  },
+  {
+    "combo": 39,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 6.658214139997767
+  },
+  {
+    "combo": 40,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 6.465432693916816
+  },
+  {
+    "combo": 41,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 6.276859696435341
+  },
+  {
+    "combo": 42,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 6.092405111205162
+  },
+  {
+    "combo": 43,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 5.911980788845184
+  },
+  {
+    "combo": 44,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 5.73550042821872
+  },
+  {
+    "combo": 45,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 5.56287953848859
+  },
+  {
+    "combo": 46,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 5.3940354019346195
+  },
+  {
+    "combo": 47,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 5.2288870375186045
+  },
+  {
+    "combo": 48,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.0272727272727273,
+      "mortality_multiplier": 3.5
+    },
+    "score": 5.067355165181934
+  },
+  {
+    "combo": 49,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 0.1
+    },
+    "score": 12.173043968082135
+  },
+  {
+    "combo": 50,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 11.860532341398006
+  },
+  {
+    "combo": 51,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 11.554776677102744
+  },
+  {
+    "combo": 52,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 11.255633840331575
+  },
+  {
+    "combo": 53,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 10.962963666875602
+  },
+  {
+    "combo": 54,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 10.676628902813336
+  },
+  {
+    "combo": 55,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 10.396495145342488
+  },
+  {
+    "combo": 56,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 10.122430784789389
+  },
+  {
+    "combo": 57,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 9.8543069477727
+  },
+  {
+    "combo": 58,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 9.591997441498894
+  },
+  {
+    "combo": 59,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 9.335378699167748
+  },
+  {
+    "combo": 60,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.3363636363636364,
+      "mortality_multiplier": 3.5
+    },
+    "score": 9.084329726466006
+  },
+  {
+    "combo": 61,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 0.1
+    },
+    "score": 20.091556410283783
+  },
+  {
+    "combo": 62,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 19.608702358572167
+  },
+  {
+    "combo": 63,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 19.136195481116456
+  },
+  {
+    "combo": 64,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 18.67381847621432
+  },
+  {
+    "combo": 65,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 18.221358512616323
+  },
+  {
+    "combo": 66,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 17.778607139474556
+  },
+  {
+    "combo": 67,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 17.345360198066555
+  },
+  {
+    "combo": 68,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 16.92141773526029
+  },
+  {
+    "combo": 69,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 16.50658391868667
+  },
+  {
+    "combo": 70,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 16.100666953586558
+  },
+  {
+    "combo": 71,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 15.703479001299947
+  },
+  {
+    "combo": 72,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.6454545454545455,
+      "mortality_multiplier": 3.5
+    },
+    "score": 15.31483609936571
+  },
+  {
+    "combo": 73,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 0.1
+    },
+    "score": 32.299940512350894
+  },
+  {
+    "combo": 74,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 31.556745741879904
+  },
+  {
+    "combo": 75,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 30.829338952165926
+  },
+  {
+    "combo": 76,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 30.117391454821746
+  },
+  {
+    "combo": 77,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 29.42058126474222
+  },
+  {
+    "combo": 78,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 28.73859296624814
+  },
+  {
+    "combo": 79,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 28.071117581845442
+  },
+  {
+    "combo": 80,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 27.417852443550718
+  },
+  {
+    "combo": 81,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 26.778501066733767
+  },
+  {
+    "combo": 82,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 26.15277302642841
+  },
+  {
+    "combo": 83,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 25.54038383606527
+  },
+  {
+    "combo": 84,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 1.9545454545454546,
+      "mortality_multiplier": 3.5
+    },
+    "score": 24.94105482857937
+  },
+  {
+    "combo": 85,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 0.1
+    },
+    "score": 51.051037385262674
+  },
+  {
+    "combo": 86,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 49.91142938275107
+  },
+  {
+    "combo": 87,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 48.79582242468675
+  },
+  {
+    "combo": 88,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 47.70372113274988
+  },
+  {
+    "combo": 89,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 46.63464014446552
+  },
+  {
+    "combo": 90,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 45.588103914921106
+  },
+  {
+    "combo": 91,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 44.56364652232478
+  },
+  {
+    "combo": 92,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 43.56081147733329
+  },
+  {
+    "combo": 93,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 42.579151536076985
+  },
+  {
+    "combo": 94,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 41.61822851681239
+  },
+  {
+    "combo": 95,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 40.67761312013283
+  },
+  {
+    "combo": 96,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.2636363636363637,
+      "mortality_multiplier": 3.5
+    },
+    "score": 39.756884752670516
+  },
+  {
+    "combo": 97,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 0.1
+    },
+    "score": 79.74414894421116
+  },
+  {
+    "combo": 98,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 78.00313328080495
+  },
+  {
+    "combo": 99,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 76.29847228059005
+  },
+  {
+    "combo": 100,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 74.62942198597636
+  },
+  {
+    "combo": 101,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 72.99525335283265
+  },
+  {
+    "combo": 102,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 71.39525195776541
+  },
+  {
+    "combo": 103,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 69.82871771102063
+  },
+  {
+    "combo": 104,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 68.29496457490322
+  },
+  {
+    "combo": 105,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 66.79332028760926
+  },
+  {
+    "combo": 106,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 65.32312609237167
+  },
+  {
+    "combo": 107,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 63.88373647181583
+  },
+  {
+    "combo": 108,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.5727272727272728,
+      "mortality_multiplier": 3.5
+    },
+    "score": 62.47451888743047
+  },
+  {
+    "combo": 109,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 0.1
+    },
+    "score": 123.49020657612891
+  },
+  {
+    "combo": 110,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 120.84004870976156
+  },
+  {
+    "combo": 111,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 118.24476192643284
+  },
+  {
+    "combo": 112,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 115.7032328437327
+  },
+  {
+    "combo": 113,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 113.21437020947276
+  },
+  {
+    "combo": 114,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 110.77710447098926
+  },
+  {
+    "combo": 115,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 108.39038735265062
+  },
+  {
+    "combo": 116,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 106.05319144141518
+  },
+  {
+    "combo": 117,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 103.76450978028886
+  },
+  {
+    "combo": 118,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 101.52335546953732
+  },
+  {
+    "combo": 119,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 99.32876127550539
+  },
+  {
+    "combo": 120,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 2.881818181818182,
+      "mortality_multiplier": 3.5
+    },
+    "score": 97.17977924690385
+  },
+  {
+    "combo": 121,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 0.1
+    },
+    "score": 189.9467295869016
+  },
+  {
+    "combo": 122,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 185.9270677023968
+  },
+  {
+    "combo": 123,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 181.9899348333939
+  },
+  {
+    "combo": 124,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 178.13367043241527
+  },
+  {
+    "combo": 125,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 174.35664668115194
+  },
+  {
+    "combo": 126,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 170.6572678588345
+  },
+  {
+    "combo": 127,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 167.03396972253577
+  },
+  {
+    "combo": 128,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 163.4852188991819
+  },
+  {
+    "combo": 129,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 160.00951228905623
+  },
+  {
+    "combo": 130,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 156.60537648058343
+  },
+  {
+    "combo": 131,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 153.2713671761848
+  },
+  {
+    "combo": 132,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.190909090909091,
+      "mortality_multiplier": 3.5
+    },
+    "score": 150.00606862900145
+  },
+  {
+    "combo": 133,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 0.1
+    },
+    "score": 290.54723417941653
+  },
+  {
+    "combo": 134,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 0.40909090909090906
+    },
+    "score": 284.4717321637569
+  },
+  {
+    "combo": 135,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 0.7181818181818181
+    },
+    "score": 278.51993170307134
+  },
+  {
+    "combo": 136,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 1.0272727272727273
+    },
+    "score": 272.68936451907484
+  },
+  {
+    "combo": 137,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 1.3363636363636364
+    },
+    "score": 266.9776105782925
+  },
+  {
+    "combo": 138,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 1.6454545454545455
+    },
+    "score": 261.38229716874844
+  },
+  {
+    "combo": 139,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 1.9545454545454546
+    },
+    "score": 255.90109799394716
+  },
+  {
+    "combo": 140,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 2.2636363636363637
+    },
+    "score": 250.53173228383474
+  },
+  {
+    "combo": 141,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 2.5727272727272728
+    },
+    "score": 245.27196392242047
+  },
+  {
+    "combo": 142,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 2.881818181818182
+    },
+    "score": 240.11960059176306
+  },
+  {
+    "combo": 143,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 3.190909090909091
+    },
+    "score": 235.07249293201494
+  },
+  {
+    "combo": 144,
+    "iteration": 1,
+    "params": {
+      "fertility_multiplier": 3.5,
+      "mortality_multiplier": 3.5
+    },
+    "score": 230.12853371722943
+  }
+]
