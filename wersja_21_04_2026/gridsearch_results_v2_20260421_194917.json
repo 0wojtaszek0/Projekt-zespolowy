@@ -1,0 +1,902 @@
+[
+  {
+    "combo": 1,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.0005
+    },
+    "score": 7.3999999999999995
+  },
+  {
+    "combo": 2,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 10.7
+  },
+  {
+    "combo": 3,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 12.2
+  },
+  {
+    "combo": 4,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 13.600000000000001
+  },
+  {
+    "combo": 5,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 17.1
+  },
+  {
+    "combo": 6,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 20.200000000000003
+  },
+  {
+    "combo": 7,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 20.599999999999998
+  },
+  {
+    "combo": 8,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 20.5
+  },
+  {
+    "combo": 9,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 21.2
+  },
+  {
+    "combo": 10,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.01,
+      "mortality_rate": 0.003
+    },
+    "score": 23.799999999999997
+  },
+  {
+    "combo": 11,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.0005
+    },
+    "score": 5.4
+  },
+  {
+    "combo": 12,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 8.9
+  },
+  {
+    "combo": 13,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 12.5
+  },
+  {
+    "combo": 14,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 15.2
+  },
+  {
+    "combo": 15,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 16.6
+  },
+  {
+    "combo": 16,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 18.0
+  },
+  {
+    "combo": 17,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 19.7
+  },
+  {
+    "combo": 18,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 20.3
+  },
+  {
+    "combo": 19,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 21.0
+  },
+  {
+    "combo": 20,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.015555555555555555,
+      "mortality_rate": 0.003
+    },
+    "score": 21.6
+  },
+  {
+    "combo": 21,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.0005
+    },
+    "score": 3.5000000000000004
+  },
+  {
+    "combo": 22,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 9.8
+  },
+  {
+    "combo": 23,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 10.8
+  },
+  {
+    "combo": 24,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 12.6
+  },
+  {
+    "combo": 25,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 15.5
+  },
+  {
+    "combo": 26,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 17.1
+  },
+  {
+    "combo": 27,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 18.4
+  },
+  {
+    "combo": 28,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 18.2
+  },
+  {
+    "combo": 29,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 22.2
+  },
+  {
+    "combo": 30,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.02111111111111111,
+      "mortality_rate": 0.003
+    },
+    "score": 21.5
+  },
+  {
+    "combo": 31,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.0005
+    },
+    "score": 2.8000000000000003
+  },
+  {
+    "combo": 32,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 8.3
+  },
+  {
+    "combo": 33,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 11.3
+  },
+  {
+    "combo": 34,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 10.6
+  },
+  {
+    "combo": 35,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 12.5
+  },
+  {
+    "combo": 36,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 15.6
+  },
+  {
+    "combo": 37,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 16.7
+  },
+  {
+    "combo": 38,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 19.2
+  },
+  {
+    "combo": 39,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 19.7
+  },
+  {
+    "combo": 40,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.026666666666666665,
+      "mortality_rate": 0.003
+    },
+    "score": 19.8
+  },
+  {
+    "combo": 41,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.0005
+    },
+    "score": 3.5000000000000004
+  },
+  {
+    "combo": 42,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 7.000000000000001
+  },
+  {
+    "combo": 43,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 9.2
+  },
+  {
+    "combo": 44,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 11.700000000000001
+  },
+  {
+    "combo": 45,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 13.0
+  },
+  {
+    "combo": 46,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 17.0
+  },
+  {
+    "combo": 47,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 17.299999999999997
+  },
+  {
+    "combo": 48,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 17.4
+  },
+  {
+    "combo": 49,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 17.299999999999997
+  },
+  {
+    "combo": 50,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03222222222222222,
+      "mortality_rate": 0.003
+    },
+    "score": 20.599999999999998
+  },
+  {
+    "combo": 51,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.0005
+    },
+    "score": 2.4
+  },
+  {
+    "combo": 52,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 4.5
+  },
+  {
+    "combo": 53,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 8.4
+  },
+  {
+    "combo": 54,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 8.3
+  },
+  {
+    "combo": 55,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 12.0
+  },
+  {
+    "combo": 56,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 14.099999999999998
+  },
+  {
+    "combo": 57,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 16.1
+  },
+  {
+    "combo": 58,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 18.0
+  },
+  {
+    "combo": 59,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 17.2
+  },
+  {
+    "combo": 60,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.03777777777777778,
+      "mortality_rate": 0.003
+    },
+    "score": 18.6
+  },
+  {
+    "combo": 61,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.0005
+    },
+    "score": 1.2
+  },
+  {
+    "combo": 62,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 4.5
+  },
+  {
+    "combo": 63,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 4.8
+  },
+  {
+    "combo": 64,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 8.9
+  },
+  {
+    "combo": 65,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 11.3
+  },
+  {
+    "combo": 66,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 12.6
+  },
+  {
+    "combo": 67,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 13.8
+  },
+  {
+    "combo": 68,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 17.599999999999998
+  },
+  {
+    "combo": 69,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 17.1
+  },
+  {
+    "combo": 70,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.04333333333333333,
+      "mortality_rate": 0.003
+    },
+    "score": 17.8
+  },
+  {
+    "combo": 71,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.0005
+    },
+    "score": 0.5
+  },
+  {
+    "combo": 72,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 4.8
+  },
+  {
+    "combo": 73,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 8.5
+  },
+  {
+    "combo": 74,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 10.299999999999999
+  },
+  {
+    "combo": 75,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 10.100000000000001
+  },
+  {
+    "combo": 76,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 12.6
+  },
+  {
+    "combo": 77,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 12.6
+  },
+  {
+    "combo": 78,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 16.7
+  },
+  {
+    "combo": 79,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 15.6
+  },
+  {
+    "combo": 80,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.048888888888888885,
+      "mortality_rate": 0.003
+    },
+    "score": 16.8
+  },
+  {
+    "combo": 81,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.0005
+    },
+    "score": 2.1999999999999997
+  },
+  {
+    "combo": 82,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 3.5000000000000004
+  },
+  {
+    "combo": 83,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 3.4000000000000004
+  },
+  {
+    "combo": 84,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 7.3999999999999995
+  },
+  {
+    "combo": 85,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 8.4
+  },
+  {
+    "combo": 86,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 11.1
+  },
+  {
+    "combo": 87,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 11.1
+  },
+  {
+    "combo": 88,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 13.700000000000001
+  },
+  {
+    "combo": 89,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 14.399999999999999
+  },
+  {
+    "combo": 90,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.05444444444444444,
+      "mortality_rate": 0.003
+    },
+    "score": 15.1
+  },
+  {
+    "combo": 91,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.0005
+    },
+    "score": 1.3
+  },
+  {
+    "combo": 92,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.0007777777777777778
+    },
+    "score": 2.4
+  },
+  {
+    "combo": 93,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.0010555555555555557
+    },
+    "score": 5.6000000000000005
+  },
+  {
+    "combo": 94,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.0013333333333333333
+    },
+    "score": 7.7
+  },
+  {
+    "combo": 95,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.0016111111111111111
+    },
+    "score": 8.6
+  },
+  {
+    "combo": 96,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.001888888888888889
+    },
+    "score": 9.9
+  },
+  {
+    "combo": 97,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.0021666666666666666
+    },
+    "score": 11.0
+  },
+  {
+    "combo": 98,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.0024444444444444444
+    },
+    "score": 12.0
+  },
+  {
+    "combo": 99,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.0027222222222222222
+    },
+    "score": 14.6
+  },
+  {
+    "combo": 100,
+    "iteration": 1,
+    "params": {
+      "birth_rate": 0.06,
+      "mortality_rate": 0.003
+    },
+    "score": 15.6
+  }
+]

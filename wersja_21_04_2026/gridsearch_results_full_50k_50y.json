@@ -1,0 +1,227 @@
+[
+  {
+    "combo": 1,
+    "birth_rate": 0.01,
+    "mortality_rate": 0.0005,
+    "initial_population": 49995,
+    "final_population": 52381,
+    "score": 4.7724772477247726,
+    "elapsed_seconds": 64.6366970539093
+  },
+  {
+    "combo": 2,
+    "birth_rate": 0.01,
+    "mortality_rate": 0.001125,
+    "initial_population": 49995,
+    "final_population": 52404,
+    "score": 4.818481848184819,
+    "elapsed_seconds": 58.266939878463745
+  },
+  {
+    "combo": 3,
+    "birth_rate": 0.01,
+    "mortality_rate": 0.00175,
+    "initial_population": 49995,
+    "final_population": 52379,
+    "score": 4.768476847684768,
+    "elapsed_seconds": 53.634499073028564
+  },
+  {
+    "combo": 4,
+    "birth_rate": 0.01,
+    "mortality_rate": 0.002375,
+    "initial_population": 49995,
+    "final_population": 52329,
+    "score": 4.668466846684669,
+    "elapsed_seconds": 50.223209857940674
+  },
+  {
+    "combo": 5,
+    "birth_rate": 0.01,
+    "mortality_rate": 0.003,
+    "initial_population": 49995,
+    "final_population": 52346,
+    "score": 4.702470247024702,
+    "elapsed_seconds": 48.60431909561157
+  },
+  {
+    "combo": 6,
+    "birth_rate": 0.0225,
+    "mortality_rate": 0.0005,
+    "initial_population": 49995,
+    "final_population": 56256,
+    "score": 12.523252325232523,
+    "elapsed_seconds": 67.38605117797852
+  },
+  {
+    "combo": 7,
+    "birth_rate": 0.0225,
+    "mortality_rate": 0.001125,
+    "initial_population": 49995,
+    "final_population": 56303,
+    "score": 12.617261726172618,
+    "elapsed_seconds": 60.39461088180542
+  },
+  {
+    "combo": 8,
+    "birth_rate": 0.0225,
+    "mortality_rate": 0.00175,
+    "initial_population": 49995,
+    "final_population": 56280,
+    "score": 12.57125712571257,
+    "elapsed_seconds": 56.28231692314148
+  },
+  {
+    "combo": 9,
+    "birth_rate": 0.0225,
+    "mortality_rate": 0.002375,
+    "initial_population": 49995,
+    "final_population": 56037,
+    "score": 12.085208520852085,
+    "elapsed_seconds": 53.42922806739807
+  },
+  {
+    "combo": 10,
+    "birth_rate": 0.0225,
+    "mortality_rate": 0.003,
+    "initial_population": 49995,
+    "final_population": 56282,
+    "score": 12.58,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 11,
+    "birth_rate": 0.035,
+    "mortality_rate": 0.0005,
+    "initial_population": 49995,
+    "final_population": 60577,
+    "score": 21.17,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 12,
+    "birth_rate": 0.035,
+    "mortality_rate": 0.001125,
+    "initial_population": 49995,
+    "final_population": 60822,
+    "score": 21.66,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 13,
+    "birth_rate": 0.035,
+    "mortality_rate": 0.00175,
+    "initial_population": 49995,
+    "final_population": 60785,
+    "score": 21.58,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 14,
+    "birth_rate": 0.035,
+    "mortality_rate": 0.002375,
+    "initial_population": 49995,
+    "final_population": 60874,
+    "score": 21.76,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 15,
+    "birth_rate": 0.035,
+    "mortality_rate": 0.003,
+    "initial_population": 49995,
+    "final_population": 60741,
+    "score": 21.49,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 16,
+    "birth_rate": 0.0475,
+    "mortality_rate": 0.0005,
+    "initial_population": 49995,
+    "final_population": 66311,
+    "score": 32.64,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 17,
+    "birth_rate": 0.0475,
+    "mortality_rate": 0.001125,
+    "initial_population": 49995,
+    "final_population": 66245,
+    "score": 32.5,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 18,
+    "birth_rate": 0.0475,
+    "mortality_rate": 0.00175,
+    "initial_population": 49995,
+    "final_population": 66416,
+    "score": 32.85,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 19,
+    "birth_rate": 0.0475,
+    "mortality_rate": 0.002375,
+    "initial_population": 49995,
+    "final_population": 66246,
+    "score": 32.51,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 20,
+    "birth_rate": 0.0475,
+    "mortality_rate": 0.003,
+    "initial_population": 49995,
+    "final_population": 66103,
+    "score": 32.22,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 21,
+    "birth_rate": 0.06,
+    "mortality_rate": 0.0005,
+    "initial_population": 49995,
+    "final_population": 72630,
+    "score": 45.27,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 22,
+    "birth_rate": 0.06,
+    "mortality_rate": 0.001125,
+    "initial_population": 49995,
+    "final_population": 72734,
+    "score": 45.48,
+    "elapsed_seconds": 0
+  },
+  {
+    "combo": 23,
+    "birth_rate": 0.06,
+    "mortality_rate": 0.00175,
+    "initial_population": 49995,
+    "final_population": 72659,
+    "score": 45.33253325332533,
+    "elapsed_seconds": 68.7610559463501
+  },
+  {
+    "combo": 24,
+    "birth_rate": 0.06,
+    "mortality_rate": 0.002375,
+    "initial_population": 49995,
+    "final_population": 72367,
+    "score": 44.74847484748475,
+    "elapsed_seconds": 65.61301612854004
+  },
+  {
+    "combo": 25,
+    "birth_rate": 0.06,
+    "mortality_rate": 0.003,
+    "initial_population": 49995,
+    "final_population": 72361,
+    "score": 44.73647364736474,
+    "elapsed_seconds": 64.71694278717041
+  }
+]
