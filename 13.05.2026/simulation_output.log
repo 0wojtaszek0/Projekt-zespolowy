@@ -1,0 +1,133 @@
+======================================================================
+URBAN HEALTH AGENT-BASED MODEL (URBAN-ABM)
+Demographic Simulation with 50,000 Agents
+Polish GUS-Inspired Population Structure
+======================================================================
+
+
+======================================================================
+PHASE 1: GRIDSEARCH PARAMETER OPTIMIZATION
+======================================================================
+Running GridSearchOptimization to find optimal parameters...
+
+Iteration 1/1
+Final best parameters: {'fertility_multiplier': 2.1, 'mortality_multiplier': 0.5}
+Final best score: 1948.0331788269893
+
+✅ OPTIMAL PARAMETERS FOUND:
+----------------------------------------------------------------------
+  fertility_multiplier      = 2.1
+  mortality_multiplier      = 0.5
+----------------------------------------------------------------------
+  Best Score (population growth %):  1,948.03%
+
+
+======================================================================
+PHASE 2: DISEASE MODEL INITIALIZATION
+======================================================================
+Initializing disease model...
+
+Selected 3 diseases for simulation:
+   1. CVD                                      (prevalence= 35.0%, disability=0.25)
+   2. Lung Cancer                              (prevalence=  4.5%, disability=0.55)
+   3. Hypercholesterolemia                     (prevalence= 25.0%, disability=0.08)
+
+
+======================================================================
+PHASE 3: SIMULATION ENGINE SETUP
+======================================================================
+Creating simulation engine with demographic tables...
+
+  Engine Configuration (from GridSearch):
+    - Fertility rate multiplier: 2.100
+    - Mortality multiplier: 0.500
+    - Household split probability: 0.0010
+    - Zones created: 4
+
+
+======================================================================
+PHASE 4: SYNTHETIC POPULATION GENERATION
+======================================================================
+Generating initial population (50,000 agents)...
+
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49995 citizens in 20000 households
+  Created 4 zones with environmental parameters
+  Initial households: 20000
+  Total zones: 4
+  Population composition:
+    - Children (0-14): 6378 (12.8%)
+    - Working-age (18-64): 31077 (62.2%)
+    - Elderly (65+): 11131 (22.3%)
+    - Female: 52.4%
+
+
+======================================================================
+PHASE 5: DEMOGRAPHIC SIMULATION (50 YEARS / 600 MONTHS)
+======================================================================
+
+Running simulation with GridSearch-optimized parameters...
+
+Starting simulation for 600 months (50.0 years)
+Initial population: 49995 citizens
+Year 1: Population=50117, Households=20470
+Year 5: Population=50358, Households=22350
+Year 10: Population=50242, Households=24603
+Year 15: Population=49782, Households=26894
+Year 20: Population=48947, Households=29122
+Year 25: Population=47867, Households=31364
+Year 30: Population=46917, Households=33467
+Year 35: Population=46102, Households=35557
+Year 40: Population=45238, Households=37582
+Year 45: Population=44179, Households=39617
+Year 50: Population=43125, Households=41495
+Simulation complete. Final population: 43125
+
+======================================================================
+SIMULATION STATISTICS
+======================================================================
+Year: 50
+Total Population: 43125
+Male: 21541 (50.0%)
+Female: 21584 (50.0%)
+Number of Households: 22474
+Average Household Size: 1.92
+Multimorbidity Cases: 187
+Average Disability Score: 0.011
+======================================================================
+
+
+======================================================================
+PHASE 6: GENERATING VISUALIZATIONS
+======================================================================
+
+Generating interactive visualizations...
+
+
+Generating interactive visualizations...
+Piramida wieku zapisana do ./piramida_wieku_rok_50.html
+Animowana piramida wieku zapisana do ./piramida_wieku_animowana.html
+Population trends saved to ./population_trends.html
+Household trends saved to ./households_trends.html
+Gender distribution saved to ./gender_distribution.html
+All visualizations generated successfully!
+
+======================================================================
+SIMULATION COMPLETE
+======================================================================
+
+Generated output files:
+  📊 DEMOGRAFIC PYRAMIDS (GUS-style, interactive):
+     - piramida_wieku_rok_50.html (Age pyramid - year 50)
+     - piramida_wieku_animowana.html (Animated pyramid with year slider)
+  📈 POPULATION TRENDS:
+     - population_trends.html (Population, multimorbidity, disability)
+     - households_trends.html (Household dynamics)
+     - gender_distribution.html (Male/Female temporal distribution)
+
+Open HTML files in a web browser to interactively analyze results.
+
+Total agents simulated: 50,000
+Simulation duration: 50 years
+Final population: 43125
+

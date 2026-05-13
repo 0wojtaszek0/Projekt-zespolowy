@@ -1,0 +1,2620 @@
+==============================================================================
+ABM GRIDSEARCH — full simulation, NO risk factors
+==============================================================================
+  Siatka:       12 × 12 = 144 kombinacji
+  Populacja:    50,000 agentów
+  Symulacja:    600 mies. (50 lat)
+  Workers:      10 rdzeni
+  Risk factors: WYŁĄCZONE (wszystkie agentom RF=0)
+  Cox model:    AKTYWNY (ale exp(β·0)=1, więc bez amplifikacji)
+  Seed:         42
+==============================================================================
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50158, Households=20473
+Year 5: Population=50519, Households=22252
+Year 10: Population=50453, Households=24544
+Year 15: Population=49749, Households=26862
+Year 20: Population=48601, Households=29245
+Year 25: Population=47142, Households=31626
+Year 30: Population=45300, Households=33879
+Year 35: Population=43161, Households=36092
+Year 40: Population=40912, Households=38101
+Year 45: Population=38584, Households=40120
+Year 50: Population=36338, Households=41977
+Simulation complete. Final population: 36338
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49890, Households=20456
+Year 5: Population=49323, Households=22283
+Year 10: Population=48082, Households=24610
+Year 15: Population=46389, Households=26895
+Year 20: Population=44372, Households=29174
+Year 25: Population=41976, Households=31411
+Year 30: Population=39476, Households=33505
+Year 35: Population=36587, Households=35520
+Year 40: Population=33549, Households=37449
+Year 45: Population=30508, Households=39143
+Year 50: Population=27715, Households=40686
+Simulation complete. Final population: 27715
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50500, Households=20453
+Year 5: Population=52237, Households=22290
+Year 10: Population=53533, Households=24595
+Year 15: Population=54298, Households=26913
+Year 20: Population=54638, Households=29137
+Year 25: Population=54780, Households=31369
+Year 30: Population=55449, Households=33622
+Year 35: Population=56485, Households=35934
+Year 40: Population=57881, Households=38206
+Year 45: Population=59258, Households=40538
+Year 50: Population=60491, Households=42828
+Simulation complete. Final population: 60491
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50532, Households=20436
+Year 5: Population=52198, Households=22266
+Year 10: Population=53330, Households=24614
+Year 15: Population=54017, Households=26863
+Year 20: Population=54287, Households=29157
+Year 25: Population=54818, Households=31343
+Year 30: Population=55972, Households=33558
+Year 35: Population=57802, Households=35841
+Year 40: Population=59997, Households=38069
+Year 45: Population=62065, Households=40253
+Year 50: Population=64472, Households=42470
+Simulation complete. Final population: 64472
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49579, Households=20457
+Year 5: Population=47665, Households=22256
+Year 10: Population=45060, Households=24567
+Year 15: Population=42261, Households=26715
+Year 20: Population=39364, Households=28763
+Year 25: Population=36560, Households=30831
+Year 30: Population=33420, Households=32744
+Year 35: Population=30303, Households=34548
+Year 40: Population=27108, Households=36062
+Year 45: Population=23948, Households=37497
+Year 50: Population=20938, Households=38767
+Simulation complete. Final population: 20938
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49921, Households=20465
+Year 5: Population=49487, Households=22296
+Year 10: Population=48570, Households=24527
+Year 15: Population=47192, Households=26711
+Year 20: Population=45879, Households=28834
+Year 25: Population=44394, Households=30916
+Year 30: Population=42989, Households=32858
+Year 35: Population=41554, Households=34752
+Year 40: Population=40243, Households=36597
+Year 45: Population=38827, Households=38321
+Year 50: Population=37612, Households=40044
+Simulation complete. Final population: 37612
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49721, Households=20432
+Year 5: Population=48407, Households=22176
+Year 10: Population=46501, Households=24348
+Year 15: Population=44549, Households=26470
+Year 20: Population=42399, Households=28463
+Year 25: Population=40243, Households=30464
+Year 30: Population=38069, Households=32336
+Year 35: Population=35929, Households=34096
+Year 40: Population=33559, Households=35717
+Year 45: Population=31371, Households=37337
+Year 50: Population=29206, Households=38827
+Simulation complete. Final population: 29206
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49468, Households=20442
+Year 5: Population=47395, Households=22219
+Year 10: Population=44605, Households=24456
+Year 15: Population=41866, Households=26552
+Year 20: Population=39129, Households=28570
+Year 25: Population=36251, Households=30463
+Year 30: Population=33458, Households=32274
+Year 35: Population=30527, Households=33984
+Year 40: Population=27639, Households=35516
+Year 45: Population=24773, Households=36946
+Year 50: Population=22051, Households=38210
+Simulation complete. Final population: 22051
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50050, Households=20441
+Year 5: Population=50059, Households=22220
+Year 10: Population=49938, Households=24355
+Year 15: Population=49643, Households=26505
+Year 20: Population=49125, Households=28447
+Year 25: Population=48883, Households=30433
+Year 30: Population=49351, Households=32359
+Year 35: Population=50403, Households=34282
+Year 40: Population=51556, Households=36187
+Year 45: Population=52769, Households=38025
+Year 50: Population=54261, Households=39919
+Simulation complete. Final population: 54261
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49974, Households=20431
+Year 5: Population=49746, Households=22220
+Year 10: Population=49301, Households=24332
+Year 15: Population=48733, Households=26387
+Year 20: Population=48275, Households=28308
+Year 25: Population=48025, Households=30250
+Year 30: Population=48421, Households=32119
+Year 35: Population=49314, Households=33951
+Year 40: Population=50726, Households=35766
+Year 45: Population=52132, Households=37697
+Year 50: Population=53596, Households=39576
+Simulation complete. Final population: 53596
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49878, Households=20441
+Year 5: Population=49347, Households=22183
+Year 10: Population=48408, Households=24370
+Year 15: Population=47542, Households=26399
+Year 20: Population=46722, Households=28301
+Year 25: Population=46160, Households=30117
+Year 30: Population=46024, Households=31864
+Year 35: Population=46379, Households=33743
+Year 40: Population=47004, Households=35526
+Year 45: Population=47668, Households=37276
+Year 50: Population=48327, Households=39024
+Simulation complete. Final population: 48327
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49648, Households=20416
+Year 5: Population=48087, Households=22191
+Year 10: Population=46411, Households=24261
+Year 15: Population=44913, Households=26245
+Year 20: Population=43498, Households=28129
+Year 25: Population=42244, Households=29935
+Year 30: Population=41260, Households=31729
+Year 35: Population=40249, Households=33430
+Year 40: Population=39419, Households=35135
+Year 45: Population=38766, Households=36743
+Year 50: Population=38192, Households=38272
+Simulation complete. Final population: 38192
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49458, Households=20433
+Year 5: Population=47266, Households=22138
+Year 10: Population=44863, Households=24189
+Year 15: Population=42574, Households=26172
+Year 20: Population=40478, Households=28007
+Year 25: Population=38592, Households=29707
+Year 30: Population=36740, Households=31416
+Year 35: Population=34885, Households=33092
+Year 40: Population=33125, Households=34614
+Year 45: Population=31410, Households=36107
+Year 50: Population=29728, Households=37503
+Simulation complete. Final population: 29728
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49142, Households=20440
+Year 5: Population=46184, Households=22104
+Year 10: Population=42967, Households=24066
+Year 15: Population=40077, Households=25914
+Year 20: Population=37514, Households=27677
+Year 25: Population=34919, Households=29450
+Year 30: Population=32418, Households=31144
+Year 35: Population=29851, Households=32699
+Year 40: Population=27263, Households=34097
+Year 45: Population=24835, Households=35404
+Year 50: Population=22489, Households=36541
+Simulation complete. Final population: 22489
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50647, Households=20449
+Year 5: Population=52712, Households=22321
+Year 10: Population=54598, Households=24675
+Year 15: Population=55700, Households=27050
+Year 20: Population=56269, Households=29441
+Year 25: Population=56856, Households=31902
+Year 30: Population=57518, Households=34328
+Year 35: Population=58812, Households=36802
+Year 40: Population=60125, Households=39237
+Year 45: Population=61376, Households=41576
+Year 50: Population=62568, Households=44012
+Simulation complete. Final population: 62568
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50395, Households=20451
+Year 5: Population=51598, Households=22380
+Year 10: Population=52352, Households=24680
+Year 15: Population=52315, Households=26994
+Year 20: Population=52005, Households=29365
+Year 25: Population=51509, Households=31585
+Year 30: Population=51077, Households=33743
+Year 35: Population=50855, Households=36023
+Year 40: Population=50591, Households=38194
+Year 45: Population=50409, Households=40369
+Year 50: Population=50216, Households=42444
+Simulation complete. Final population: 50216
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50122, Households=20454
+Year 5: Population=50403, Households=22241
+Year 10: Population=50038, Households=24470
+Year 15: Population=49251, Households=26716
+Year 20: Population=48076, Households=28899
+Year 25: Population=46693, Households=31074
+Year 30: Population=45343, Households=33114
+Year 35: Population=44035, Households=35179
+Year 40: Population=42638, Households=37187
+Year 45: Population=41034, Households=39103
+Year 50: Population=39564, Households=40987
+Simulation complete. Final population: 39564
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49907, Households=20448
+Year 5: Population=49311, Households=22288
+Year 10: Population=48083, Households=24565
+Year 15: Population=46375, Households=26871
+Year 20: Population=44449, Households=29026
+Year 25: Population=42478, Households=31128
+Year 30: Population=40273, Households=33129
+Year 35: Population=38155, Households=35043
+Year 40: Population=35972, Households=36811
+Year 45: Population=33693, Households=38499
+Year 50: Population=31499, Households=40054
+Simulation complete. Final population: 31499
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50435, Households=20448
+Year 5: Population=51920, Households=22316
+Year 10: Population=53235, Households=24520
+Year 15: Population=53902, Households=26752
+Year 20: Population=54405, Households=28881
+Year 25: Population=55193, Households=30968
+Year 30: Population=56864, Households=33093
+Year 35: Population=59268, Households=35278
+Year 40: Population=62321, Households=37489
+Year 45: Population=65549, Households=39683
+Year 50: Population=68870, Households=41966
+Simulation complete. Final population: 68870
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50407, Households=20444
+Year 5: Population=51702, Households=22314
+Year 10: Population=52668, Households=24562
+Year 15: Population=53277, Households=26790
+Year 20: Population=53690, Households=28824
+Year 25: Population=54401, Households=30787
+Year 30: Population=55998, Households=32798
+Year 35: Population=58590, Households=34969
+Year 40: Population=61778, Households=37123
+Year 45: Population=65122, Households=39301
+Year 50: Population=68635, Households=41482
+Simulation complete. Final population: 68635
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50303, Households=20451
+Year 5: Population=51328, Households=22191
+Year 10: Population=52088, Households=24320
+Year 15: Population=52322, Households=26497
+Year 20: Population=52572, Households=28564
+Year 25: Population=53285, Households=30569
+Year 30: Population=54822, Households=32531
+Year 35: Population=57565, Households=34593
+Year 40: Population=60564, Households=36606
+Year 45: Population=63642, Households=38652
+Year 50: Population=67072, Households=40768
+Simulation complete. Final population: 67072
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49343, Households=20439
+Year 5: Population=46654, Households=22261
+Year 10: Population=43405, Households=24412
+Year 15: Population=40225, Households=26500
+Year 20: Population=36984, Households=28494
+Year 25: Population=33957, Households=30413
+Year 30: Population=30821, Households=32205
+Year 35: Population=27752, Households=33804
+Year 40: Population=24669, Households=35222
+Year 45: Population=21462, Households=36510
+Year 50: Population=18631, Households=37637
+Simulation complete. Final population: 18631
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49799, Households=20443
+Year 5: Population=48916, Households=22120
+Year 10: Population=47595, Households=24171
+Year 15: Population=46107, Households=26251
+Year 20: Population=44626, Households=28260
+Year 25: Population=43439, Households=30112
+Year 30: Population=42451, Households=31874
+Year 35: Population=41532, Households=33659
+Year 40: Population=40743, Households=35394
+Year 45: Population=39786, Households=37052
+Year 50: Population=38919, Households=38746
+Simulation complete. Final population: 38919
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49511, Households=20464
+Year 5: Population=47721, Households=22247
+Year 10: Population=45412, Households=24366
+Year 15: Population=43576, Households=26486
+Year 20: Population=41532, Households=28391
+Year 25: Population=39639, Households=30210
+Year 30: Population=37706, Households=31993
+Year 35: Population=35836, Households=33708
+Year 40: Population=33879, Households=35386
+Year 45: Population=32102, Households=36884
+Year 50: Population=30427, Households=38327
+Simulation complete. Final population: 30427
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49323, Households=20431
+Year 5: Population=46726, Households=22203
+Year 10: Population=43839, Households=24306
+Year 15: Population=41030, Households=26263
+Year 20: Population=38294, Households=28147
+Year 25: Population=35609, Households=29966
+Year 30: Population=33150, Households=31699
+Year 35: Population=30653, Households=33305
+Year 40: Population=28058, Households=34777
+Year 45: Population=25419, Households=36125
+Year 50: Population=23068, Households=37358
+Simulation complete. Final population: 23068
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49987, Households=20451
+Year 5: Population=49914, Households=22242
+Year 10: Population=49867, Households=24289
+Year 15: Population=49909, Households=26264
+Year 20: Population=50144, Households=28187
+Year 25: Population=50620, Households=30099
+Year 30: Population=51964, Households=31884
+Year 35: Population=54776, Households=33773
+Year 40: Population=58066, Households=35755
+Year 45: Population=61239, Households=37759
+Year 50: Population=65005, Households=39684
+Simulation complete. Final population: 65005
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=48996, Households=20436
+Year 5: Population=45476, Households=22183
+Year 10: Population=41560, Households=24179
+Year 15: Population=38093, Households=26124
+Year 20: Population=34891, Households=27965
+Year 25: Population=31742, Households=29735
+Year 30: Population=28680, Households=31347
+Year 35: Population=25542, Households=32811
+Year 40: Population=22522, Households=34113
+Year 45: Population=19592, Households=35336
+Year 50: Population=16838, Households=36397
+Simulation complete. Final population: 16838
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49552, Households=20447
+Year 5: Population=47930, Households=22156
+Year 10: Population=46381, Households=24149
+Year 15: Population=44908, Households=26013
+Year 20: Population=43674, Households=27821
+Year 25: Population=42559, Households=29641
+Year 30: Population=42005, Households=31390
+Year 35: Population=41577, Households=33125
+Year 40: Population=41383, Households=34819
+Year 45: Population=41368, Households=36423
+Year 50: Population=41433, Households=37959
+Simulation complete. Final population: 41433
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50321, Households=20466
+Year 5: Population=51215, Households=22319
+Year 10: Population=51862, Households=24636
+Year 15: Population=51872, Households=27032
+Year 20: Population=51292, Households=29518
+Year 25: Population=50489, Households=31863
+Year 30: Population=49362, Households=34218
+Year 35: Population=48274, Households=36599
+Year 40: Population=47008, Households=38786
+Year 45: Population=45616, Households=40930
+Year 50: Population=44193, Households=42919
+Simulation complete. Final population: 44193
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50104, Households=20481
+Year 5: Population=50135, Households=22308
+Year 10: Population=49661, Households=24645
+Year 15: Population=48503, Households=26993
+Year 20: Population=47031, Households=29309
+Year 25: Population=45169, Households=31571
+Year 30: Population=43165, Households=33779
+Year 35: Population=41044, Households=35849
+Year 40: Population=38661, Households=37795
+Year 45: Population=36198, Households=39645
+Year 50: Population=33860, Households=41410
+Simulation complete. Final population: 33860
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50689, Households=20425
+Year 5: Population=52997, Households=22265
+Year 10: Population=55017, Households=24555
+Year 15: Population=56366, Households=26849
+Year 20: Population=57312, Households=29103
+Year 25: Population=58451, Households=31372
+Year 30: Population=60253, Households=33698
+Year 35: Population=63047, Households=36035
+Year 40: Population=66116, Households=38318
+Year 45: Population=69601, Households=40701
+Year 50: Population=73199, Households=43243
+Simulation complete. Final population: 73199
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49845, Households=20463
+Year 5: Population=48884, Households=22238
+Year 10: Population=47298, Households=24383
+Year 15: Population=45292, Households=26654
+Year 20: Population=43154, Households=28868
+Year 25: Population=40842, Households=30920
+Year 30: Population=38419, Households=32953
+Year 35: Population=35751, Households=34815
+Year 40: Population=32979, Households=36519
+Year 45: Population=30314, Households=38160
+Year 50: Population=27771, Households=39624
+Simulation complete. Final population: 27771
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50321, Households=20464
+Year 5: Population=51421, Households=22235
+Year 10: Population=51960, Households=24462
+Year 15: Population=52097, Households=26667
+Year 20: Population=52013, Households=28903
+Year 25: Population=51843, Households=30952
+Year 30: Population=52269, Households=33064
+Year 35: Population=53328, Households=35274
+Year 40: Population=54555, Households=37325
+Year 45: Population=55825, Households=39391
+Year 50: Population=57300, Households=41468
+Simulation complete. Final population: 57300
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50281, Households=20448
+Year 5: Population=50961, Households=22232
+Year 10: Population=51250, Households=24551
+Year 15: Population=51252, Households=26649
+Year 20: Population=51001, Households=28709
+Year 25: Population=51012, Households=30772
+Year 30: Population=51471, Households=32771
+Year 35: Population=52447, Households=34835
+Year 40: Population=53772, Households=36911
+Year 45: Population=55138, Households=38900
+Year 50: Population=56751, Households=40884
+Simulation complete. Final population: 56751
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50011, Households=20457
+Year 5: Population=49909, Households=22195
+Year 10: Population=49304, Households=24444
+Year 15: Population=48443, Households=26563
+Year 20: Population=47445, Households=28625
+Year 25: Population=46666, Households=30682
+Year 30: Population=46149, Households=32563
+Year 35: Population=45805, Households=34519
+Year 40: Population=45519, Households=36477
+Year 45: Population=45293, Households=38327
+Year 50: Population=45173, Households=40134
+Simulation complete. Final population: 45173
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49773, Households=20447
+Year 5: Population=48824, Households=22210
+Year 10: Population=47241, Households=24264
+Year 15: Population=45681, Households=26370
+Year 20: Population=44079, Households=28438
+Year 25: Population=42569, Households=30376
+Year 30: Population=41171, Households=32233
+Year 35: Population=39855, Households=34008
+Year 40: Population=38540, Households=35800
+Year 45: Population=37172, Households=37449
+Year 50: Population=35948, Households=39029
+Simulation complete. Final population: 35948
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49583, Households=20430
+Year 5: Population=47635, Households=22249
+Year 10: Population=45289, Households=24358
+Year 15: Population=42988, Households=26359
+Year 20: Population=40759, Households=28261
+Year 25: Population=38592, Households=30210
+Year 30: Population=36358, Households=32056
+Year 35: Population=34136, Households=33725
+Year 40: Population=31879, Households=35328
+Year 45: Population=29659, Households=36803
+Year 50: Population=27441, Households=38214
+Simulation complete. Final population: 27441
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49315, Households=20439
+Year 5: Population=46698, Households=22211
+Year 10: Population=43512, Households=24350
+Year 15: Population=40577, Households=26370
+Year 20: Population=37746, Households=28295
+Year 25: Population=34893, Households=30139
+Year 30: Population=32143, Households=31887
+Year 35: Population=29368, Households=33491
+Year 40: Population=26523, Households=34958
+Year 45: Population=23746, Households=36317
+Year 50: Population=21118, Households=37533
+Simulation complete. Final population: 21118
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49983, Households=20432
+Year 5: Population=49559, Households=22195
+Year 10: Population=49095, Households=24250
+Year 15: Population=48492, Households=26264
+Year 20: Population=47948, Households=28206
+Year 25: Population=47726, Households=30024
+Year 30: Population=48262, Households=31831
+Year 35: Population=49233, Households=33681
+Year 40: Population=50615, Households=35489
+Year 45: Population=52027, Households=37337
+Year 50: Population=53526, Households=39200
+Simulation complete. Final population: 53526
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49654, Households=20426
+Year 5: Population=48555, Households=22135
+Year 10: Population=47186, Households=24253
+Year 15: Population=45997, Households=26193
+Year 20: Population=44984, Households=28025
+Year 25: Population=44061, Households=29819
+Year 30: Population=43538, Households=31485
+Year 35: Population=43087, Households=33274
+Year 40: Population=42996, Households=35010
+Year 45: Population=42835, Households=36660
+Year 50: Population=42857, Households=38293
+Simulation complete. Final population: 42857
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49465, Households=20444
+Year 5: Population=47500, Households=22192
+Year 10: Population=45385, Households=24305
+Year 15: Population=43467, Households=26233
+Year 20: Population=41720, Households=28084
+Year 25: Population=40024, Households=29861
+Year 30: Population=38500, Households=31580
+Year 35: Population=37036, Households=33278
+Year 40: Population=35864, Households=34898
+Year 45: Population=34434, Households=36457
+Year 50: Population=33286, Households=37880
+Simulation complete. Final population: 33286
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49216, Households=20451
+Year 5: Population=46485, Households=22099
+Year 10: Population=43549, Households=24091
+Year 15: Population=40868, Households=26000
+Year 20: Population=38533, Households=27835
+Year 25: Population=36243, Households=29553
+Year 30: Population=34031, Households=31189
+Year 35: Population=31749, Households=32756
+Year 40: Population=29562, Households=34216
+Year 45: Population=27420, Households=35478
+Year 50: Population=25382, Households=36759
+Simulation complete. Final population: 25382
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50223, Households=20446
+Year 5: Population=50886, Households=22242
+Year 10: Population=51148, Households=24513
+Year 15: Population=50813, Households=26841
+Year 20: Population=49946, Households=29272
+Year 25: Population=48755, Households=31536
+Year 30: Population=47184, Households=33795
+Year 35: Population=45480, Households=36027
+Year 40: Population=43534, Households=38223
+Year 45: Population=41528, Households=40297
+Year 50: Population=39525, Households=42297
+Simulation complete. Final population: 39525
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50001, Households=20462
+Year 5: Population=49664, Households=22294
+Year 10: Population=48704, Households=24624
+Year 15: Population=47317, Households=26926
+Year 20: Population=45459, Households=29166
+Year 25: Population=43404, Households=31521
+Year 30: Population=41077, Households=33706
+Year 35: Population=38605, Households=35760
+Year 40: Population=35828, Households=37665
+Year 45: Population=33131, Households=39505
+Year 50: Population=30418, Households=41178
+Simulation complete. Final population: 30418
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50595, Households=20458
+Year 5: Population=52623, Households=22333
+Year 10: Population=54280, Households=24692
+Year 15: Population=55187, Households=27049
+Year 20: Population=55861, Households=29292
+Year 25: Population=56536, Households=31559
+Year 30: Population=57611, Households=33871
+Year 35: Population=59405, Households=36222
+Year 40: Population=61575, Households=38596
+Year 45: Population=63695, Households=40872
+Year 50: Population=66040, Households=43164
+Simulation complete. Final population: 66040
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49655, Households=20458
+Year 5: Population=48074, Households=22257
+Year 10: Population=45708, Households=24418
+Year 15: Population=43115, Households=26561
+Year 20: Population=40293, Households=28676
+Year 25: Population=37456, Households=30710
+Year 30: Population=34518, Households=32719
+Year 35: Population=31298, Households=34577
+Year 40: Population=28135, Households=36275
+Year 45: Population=25000, Households=37712
+Year 50: Population=21996, Households=39123
+Simulation complete. Final population: 21996
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49910, Households=20433
+Year 5: Population=49540, Households=22201
+Year 10: Population=48556, Households=24397
+Year 15: Population=47173, Households=26622
+Year 20: Population=45391, Households=28742
+Year 25: Population=43667, Households=30905
+Year 30: Population=41850, Households=32888
+Year 35: Population=40044, Households=34834
+Year 40: Population=38124, Households=36635
+Year 45: Population=36232, Households=38366
+Year 50: Population=34315, Households=39932
+Simulation complete. Final population: 34315
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49748, Households=20451
+Year 5: Population=48518, Households=22151
+Year 10: Population=46514, Households=24374
+Year 15: Population=44234, Households=26585
+Year 20: Population=41949, Households=28680
+Year 25: Population=39447, Households=30726
+Year 30: Population=37042, Households=32668
+Year 35: Population=34377, Households=34484
+Year 40: Population=31710, Households=36101
+Year 45: Population=29106, Households=37623
+Year 50: Population=26517, Households=39047
+Simulation complete. Final population: 26517
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49491, Households=20435
+Year 5: Population=47266, Households=22207
+Year 10: Population=44410, Households=24340
+Year 15: Population=41505, Households=26478
+Year 20: Population=38460, Households=28542
+Year 25: Population=35468, Households=30503
+Year 30: Population=32491, Households=32367
+Year 35: Population=29396, Households=34125
+Year 40: Population=26237, Households=35704
+Year 45: Population=23160, Households=37024
+Year 50: Population=20181, Households=38280
+Simulation complete. Final population: 20181
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50048, Households=20443
+Year 5: Population=50175, Households=22253
+Year 10: Population=49856, Households=24418
+Year 15: Population=49315, Households=26511
+Year 20: Population=48566, Households=28556
+Year 25: Population=48198, Households=30554
+Year 30: Population=48155, Households=32391
+Year 35: Population=48451, Households=34323
+Year 40: Population=49071, Households=36239
+Year 45: Population=49598, Households=38129
+Year 50: Population=50229, Households=40035
+Simulation complete. Final population: 50229
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49913, Households=20449
+Year 5: Population=49524, Households=22230
+Year 10: Population=48752, Households=24377
+Year 15: Population=47873, Households=26465
+Year 20: Population=47028, Households=28407
+Year 25: Population=46004, Households=30326
+Year 30: Population=45416, Households=32177
+Year 35: Population=45139, Households=34063
+Year 40: Population=44975, Households=35934
+Year 45: Population=44848, Households=37712
+Year 50: Population=44679, Households=39450
+Simulation complete. Final population: 44679
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49713, Households=20419
+Year 5: Population=48479, Households=22149
+Year 10: Population=46861, Households=24219
+Year 15: Population=45281, Households=26224
+Year 20: Population=43632, Households=28153
+Year 25: Population=41946, Households=30017
+Year 30: Population=40590, Households=31827
+Year 35: Population=39300, Households=33626
+Year 40: Population=38018, Households=35350
+Year 45: Population=36695, Households=36976
+Year 50: Population=35411, Households=38546
+Simulation complete. Final population: 35411
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49513, Households=20442
+Year 5: Population=47520, Households=22235
+Year 10: Population=45002, Households=24363
+Year 15: Population=42617, Households=26388
+Year 20: Population=40394, Households=28305
+Year 25: Population=38135, Households=30157
+Year 30: Population=35876, Households=31891
+Year 35: Population=33634, Households=33499
+Year 40: Population=31316, Households=35072
+Year 45: Population=29108, Households=36545
+Year 50: Population=26998, Households=37933
+Simulation complete. Final population: 26998
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49256, Households=20430
+Year 5: Population=46328, Households=22045
+Year 10: Population=43133, Households=24067
+Year 15: Population=40077, Households=26116
+Year 20: Population=37164, Households=27989
+Year 25: Population=34315, Households=29749
+Year 30: Population=31445, Households=31452
+Year 35: Population=28529, Households=32976
+Year 40: Population=25772, Households=34396
+Year 45: Population=23002, Households=35679
+Year 50: Population=20189, Households=36819
+Simulation complete. Final population: 20189
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49809, Households=20442
+Year 5: Population=49191, Households=22105
+Year 10: Population=48390, Households=24110
+Year 15: Population=47725, Households=26001
+Year 20: Population=47177, Households=27867
+Year 25: Population=47024, Households=29724
+Year 30: Population=47416, Households=31487
+Year 35: Population=48204, Households=33361
+Year 40: Population=49344, Households=35194
+Year 45: Population=50577, Households=36977
+Year 50: Population=52195, Households=38745
+Simulation complete. Final population: 52195
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49711, Households=20453
+Year 5: Population=48880, Households=22120
+Year 10: Population=48148, Households=24160
+Year 15: Population=47515, Households=26095
+Year 20: Population=46990, Households=28055
+Year 25: Population=46712, Households=29822
+Year 30: Population=47149, Households=31502
+Year 35: Population=48220, Households=33258
+Year 40: Population=49496, Households=34997
+Year 45: Population=50925, Households=36751
+Year 50: Population=52420, Households=38587
+Simulation complete. Final population: 52420
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49612, Households=20426
+Year 5: Population=48305, Households=22192
+Year 10: Population=47109, Households=24148
+Year 15: Population=45985, Households=26048
+Year 20: Population=44978, Households=27872
+Year 25: Population=44379, Households=29560
+Year 30: Population=44343, Households=31260
+Year 35: Population=44682, Households=32956
+Year 40: Population=45299, Households=34653
+Year 45: Population=45960, Households=36318
+Year 50: Population=46761, Households=37937
+Simulation complete. Final population: 46761
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50514, Households=20436
+Year 5: Population=52322, Households=22305
+Year 10: Population=53887, Households=24691
+Year 15: Population=54825, Households=27068
+Year 20: Population=55328, Households=29488
+Year 25: Population=55582, Households=31893
+Year 30: Population=55970, Households=34211
+Year 35: Population=56501, Households=36631
+Year 40: Population=57082, Households=38929
+Year 45: Population=57646, Households=41235
+Year 50: Population=58481, Households=43607
+Simulation complete. Final population: 58481
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50264, Households=20434
+Year 5: Population=51172, Households=22257
+Year 10: Population=51550, Households=24597
+Year 15: Population=51312, Households=26867
+Year 20: Population=50774, Households=29120
+Year 25: Population=49878, Households=31347
+Year 30: Population=48980, Households=33584
+Year 35: Population=48113, Households=35737
+Year 40: Population=47312, Households=37915
+Year 45: Population=46388, Households=39944
+Year 50: Population=45624, Households=41875
+Simulation complete. Final population: 45624
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50047, Households=20440
+Year 5: Population=49876, Households=22270
+Year 10: Population=49224, Households=24570
+Year 15: Population=48062, Households=26796
+Year 20: Population=46548, Households=29010
+Year 25: Population=44916, Households=31168
+Year 30: Population=43235, Households=33274
+Year 35: Population=41453, Households=35307
+Year 40: Population=39526, Households=37263
+Year 45: Population=37558, Households=39121
+Year 50: Population=35590, Households=40863
+Simulation complete. Final population: 35590
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49760, Households=20440
+Year 5: Population=48515, Households=22203
+Year 10: Population=46489, Households=24534
+Year 15: Population=44159, Households=26659
+Year 20: Population=41585, Households=28826
+Year 25: Population=39073, Households=30889
+Year 30: Population=36312, Households=32840
+Year 35: Population=33397, Households=34650
+Year 40: Population=30470, Households=36351
+Year 45: Population=27533, Households=37905
+Year 50: Population=24671, Households=39297
+Simulation complete. Final population: 24671
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50133, Households=20451
+Year 5: Population=50316, Households=22274
+Year 10: Population=49943, Households=24610
+Year 15: Population=49154, Households=26714
+Year 20: Population=48266, Households=28794
+Year 25: Population=47136, Households=30877
+Year 30: Population=46204, Households=32846
+Year 35: Population=45323, Households=34884
+Year 40: Population=44528, Households=36797
+Year 45: Population=43644, Households=38682
+Year 50: Population=42802, Households=40501
+Simulation complete. Final population: 42802
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49882, Households=20435
+Year 5: Population=49139, Households=22203
+Year 10: Population=47896, Households=24421
+Year 15: Population=46280, Households=26547
+Year 20: Population=44434, Households=28536
+Year 25: Population=42729, Households=30498
+Year 30: Population=40976, Households=32439
+Year 35: Population=39133, Households=34272
+Year 40: Population=37271, Households=36002
+Year 45: Population=35288, Households=37780
+Year 50: Population=33520, Households=39359
+Simulation complete. Final population: 33520
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49611, Households=20427
+Year 5: Population=48135, Households=22202
+Year 10: Population=45873, Households=24431
+Year 15: Population=43461, Households=26535
+Year 20: Population=41061, Households=28589
+Year 25: Population=38564, Households=30485
+Year 30: Population=35996, Households=32368
+Year 35: Population=33512, Households=34115
+Year 40: Population=30872, Households=35708
+Year 45: Population=28268, Households=37204
+Year 50: Population=25712, Households=38525
+Simulation complete. Final population: 25712
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49467, Households=20428
+Year 5: Population=47083, Households=22151
+Year 10: Population=43859, Households=24302
+Year 15: Population=40683, Households=26347
+Year 20: Population=37651, Households=28319
+Year 25: Population=34593, Households=30264
+Year 30: Population=31576, Households=32166
+Year 35: Population=28417, Households=33708
+Year 40: Population=25349, Households=35156
+Year 45: Population=22255, Households=36502
+Year 50: Population=19364, Households=37675
+Simulation complete. Final population: 19364
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49898, Households=20451
+Year 5: Population=49167, Households=22168
+Year 10: Population=47977, Households=24378
+Year 15: Population=46711, Households=26340
+Year 20: Population=45262, Households=28322
+Year 25: Population=44179, Households=30283
+Year 30: Population=43072, Households=32155
+Year 35: Population=42153, Households=34012
+Year 40: Population=41319, Households=35721
+Year 45: Population=40438, Households=37387
+Year 50: Population=39646, Households=39008
+Simulation complete. Final population: 39646
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49595, Households=20445
+Year 5: Population=48154, Households=22264
+Year 10: Population=46158, Households=24353
+Year 15: Population=44080, Households=26423
+Year 20: Population=42146, Households=28403
+Year 25: Population=40252, Households=30274
+Year 30: Population=38448, Households=32074
+Year 35: Population=36685, Households=33740
+Year 40: Population=34856, Households=35407
+Year 45: Population=33025, Households=36946
+Year 50: Population=31169, Households=38473
+Simulation complete. Final population: 31169
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49419, Households=20451
+Year 5: Population=47085, Households=22167
+Year 10: Population=44338, Households=24204
+Year 15: Population=41760, Households=26253
+Year 20: Population=39078, Households=28220
+Year 25: Population=36424, Households=30088
+Year 30: Population=33971, Households=31903
+Year 35: Population=31486, Households=33540
+Year 40: Population=28822, Households=35029
+Year 45: Population=26313, Households=36443
+Year 50: Population=23898, Households=37711
+Simulation complete. Final population: 23898
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49175, Households=20468
+Year 5: Population=46049, Households=22143
+Year 10: Population=42475, Households=24169
+Year 15: Population=39016, Households=26109
+Year 20: Population=35686, Households=27990
+Year 25: Population=32590, Households=29752
+Year 30: Population=29531, Households=31527
+Year 35: Population=26476, Households=33020
+Year 40: Population=23495, Households=34358
+Year 45: Population=20478, Households=35600
+Year 50: Population=17613, Households=36654
+Simulation complete. Final population: 17613
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49784, Households=20419
+Year 5: Population=48929, Households=22103
+Year 10: Population=47934, Households=24135
+Year 15: Population=47048, Households=26077
+Year 20: Population=46215, Households=28023
+Year 25: Population=45669, Households=29839
+Year 30: Population=45486, Households=31528
+Year 35: Population=45982, Households=33269
+Year 40: Population=46596, Households=35052
+Year 45: Population=47342, Households=36720
+Year 50: Population=48222, Households=38548
+Simulation complete. Final population: 48222
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49592, Households=20440
+Year 5: Population=47879, Households=22137
+Year 10: Population=46036, Households=24234
+Year 15: Population=44433, Households=26214
+Year 20: Population=42959, Households=28113
+Year 25: Population=41722, Households=29925
+Year 30: Population=40702, Households=31659
+Year 35: Population=39929, Households=33288
+Year 40: Population=39201, Households=34935
+Year 45: Population=38461, Households=36527
+Year 50: Population=37838, Households=38013
+Simulation complete. Final population: 37838
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49264, Households=20458
+Year 5: Population=46815, Households=22173
+Year 10: Population=44396, Households=24290
+Year 15: Population=42108, Households=26227
+Year 20: Population=39903, Households=28040
+Year 25: Population=37930, Households=29778
+Year 30: Population=35990, Households=31412
+Year 35: Population=34188, Households=32977
+Year 40: Population=32492, Households=34495
+Year 45: Population=30753, Households=35862
+Year 50: Population=28984, Households=37167
+Simulation complete. Final population: 28984
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50484, Households=20443
+Year 5: Population=51981, Households=22303
+Year 10: Population=53249, Households=24652
+Year 15: Population=53795, Households=26968
+Year 20: Population=53836, Households=29414
+Year 25: Population=53583, Households=31763
+Year 30: Population=53362, Households=34090
+Year 35: Population=53212, Households=36450
+Year 40: Population=53216, Households=38821
+Year 45: Population=52922, Households=41045
+Year 50: Population=52791, Households=43251
+Simulation complete. Final population: 52791
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50213, Households=20435
+Year 5: Population=50890, Households=22240
+Year 10: Population=50889, Households=24530
+Year 15: Population=50599, Households=26851
+Year 20: Population=49596, Households=29059
+Year 25: Population=48487, Households=31304
+Year 30: Population=47317, Households=33573
+Year 35: Population=46048, Households=35701
+Year 40: Population=44635, Households=37834
+Year 45: Population=43203, Households=39870
+Year 50: Population=41771, Households=41836
+Simulation complete. Final population: 41771
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49924, Households=20452
+Year 5: Population=49337, Households=22300
+Year 10: Population=48032, Households=24530
+Year 15: Population=46359, Households=26713
+Year 20: Population=44225, Households=28869
+Year 25: Population=41941, Households=31055
+Year 30: Population=39552, Households=33029
+Year 35: Population=37144, Households=35028
+Year 40: Population=34522, Households=36899
+Year 45: Population=31794, Households=38697
+Year 50: Population=29201, Households=40286
+Simulation complete. Final population: 29201
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50423, Households=20445
+Year 5: Population=51701, Households=22285
+Year 10: Population=52574, Households=24591
+Year 15: Population=52949, Households=26839
+Year 20: Population=53044, Households=29075
+Year 25: Population=53108, Households=31311
+Year 30: Population=53801, Households=33484
+Year 35: Population=54635, Households=35732
+Year 40: Population=55943, Households=37955
+Year 45: Population=57375, Households=40090
+Year 50: Population=58654, Households=42282
+Simulation complete. Final population: 58654
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50431, Households=20454
+Year 5: Population=51870, Households=22284
+Year 10: Population=52881, Households=24496
+Year 15: Population=53281, Households=26744
+Year 20: Population=53435, Households=28949
+Year 25: Population=53904, Households=31023
+Year 30: Population=54901, Households=33105
+Year 35: Population=56763, Households=35238
+Year 40: Population=59034, Households=37422
+Year 45: Population=61405, Households=39547
+Year 50: Population=63997, Households=41733
+Simulation complete. Final population: 63997
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50349, Households=20454
+Year 5: Population=51314, Households=22253
+Year 10: Population=51883, Households=24425
+Year 15: Population=52074, Households=26583
+Year 20: Population=52118, Households=28620
+Year 25: Population=52402, Households=30626
+Year 30: Population=53416, Households=32602
+Year 35: Population=55172, Households=34642
+Year 40: Population=57429, Households=36756
+Year 45: Population=59591, Households=38798
+Year 50: Population=61899, Households=40846
+Simulation complete. Final population: 61899
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50119, Households=20438
+Year 5: Population=50527, Households=22158
+Year 10: Population=50549, Households=24309
+Year 15: Population=50403, Households=26386
+Year 20: Population=49999, Households=28529
+Year 25: Population=49817, Households=30568
+Year 30: Population=50207, Households=32435
+Year 35: Population=51125, Households=34398
+Year 40: Population=52646, Households=36339
+Year 45: Population=54096, Households=38263
+Year 50: Population=55639, Households=40185
+Simulation complete. Final population: 55639
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50017, Households=20445
+Year 5: Population=49773, Households=22206
+Year 10: Population=49293, Households=24298
+Year 15: Population=48591, Households=26397
+Year 20: Population=48070, Households=28424
+Year 25: Population=47501, Households=30325
+Year 30: Population=47328, Households=32155
+Year 35: Population=47658, Households=34028
+Year 40: Population=48249, Households=35902
+Year 45: Population=48874, Households=37751
+Year 50: Population=49559, Households=39637
+Simulation complete. Final population: 49559
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49890, Households=20450
+Year 5: Population=49062, Households=22169
+Year 10: Population=47993, Households=24291
+Year 15: Population=47064, Households=26349
+Year 20: Population=46011, Households=28308
+Year 25: Population=45048, Households=30155
+Year 30: Population=44442, Households=32011
+Year 35: Population=44040, Households=33781
+Year 40: Population=43924, Households=35624
+Year 45: Population=43851, Households=37362
+Year 50: Population=43930, Households=39126
+Simulation complete. Final population: 43930
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49697, Households=20443
+Year 5: Population=48125, Households=22183
+Year 10: Population=46269, Households=24342
+Year 15: Population=44426, Households=26348
+Year 20: Population=42661, Households=28214
+Year 25: Population=41028, Households=30029
+Year 30: Population=39476, Households=31807
+Year 35: Population=38192, Households=33477
+Year 40: Population=36760, Households=35058
+Year 45: Population=35457, Households=36687
+Year 50: Population=34189, Households=38157
+Simulation complete. Final population: 34189
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49401, Households=20455
+Year 5: Population=47150, Households=22171
+Year 10: Population=44423, Households=24182
+Year 15: Population=41966, Households=26230
+Year 20: Population=39569, Households=28188
+Year 25: Population=37365, Households=29959
+Year 30: Population=35181, Households=31638
+Year 35: Population=32932, Households=33268
+Year 40: Population=30770, Households=34796
+Year 45: Population=28475, Households=36291
+Year 50: Population=26378, Households=37566
+Simulation complete. Final population: 26378
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49155, Households=20461
+Year 5: Population=46004, Households=22124
+Year 10: Population=42639, Households=24145
+Year 15: Population=39571, Households=26047
+Year 20: Population=36522, Households=27856
+Year 25: Population=33666, Households=29568
+Year 30: Population=30817, Households=31257
+Year 35: Population=28027, Households=32751
+Year 40: Population=25200, Households=34159
+Year 45: Population=22378, Households=35325
+Year 50: Population=19766, Households=36394
+Simulation complete. Final population: 19766
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49703, Households=20430
+Year 5: Population=48709, Households=22157
+Year 10: Population=47642, Households=24207
+Year 15: Population=46542, Households=26086
+Year 20: Population=45634, Households=27834
+Year 25: Population=45022, Households=29604
+Year 30: Population=44887, Households=31320
+Year 35: Population=45300, Households=33084
+Year 40: Population=45968, Households=34795
+Year 45: Population=46627, Households=36536
+Year 50: Population=47410, Households=38196
+Simulation complete. Final population: 47410
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49502, Households=20429
+Year 5: Population=47715, Households=22153
+Year 10: Population=45851, Households=24200
+Year 15: Population=44132, Households=26196
+Year 20: Population=42481, Households=28058
+Year 25: Population=41090, Households=29852
+Year 30: Population=40185, Households=31611
+Year 35: Population=39332, Households=33205
+Year 40: Population=38468, Households=34830
+Year 45: Population=37667, Households=36397
+Year 50: Population=36762, Households=37883
+Simulation complete. Final population: 36762
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49936, Households=20454
+Year 5: Population=49487, Households=22313
+Year 10: Population=48396, Households=24566
+Year 15: Population=46827, Households=26935
+Year 20: Population=44766, Households=29274
+Year 25: Population=42420, Households=31620
+Year 30: Population=39694, Households=33917
+Year 35: Population=36727, Households=36036
+Year 40: Population=33599, Households=38049
+Year 45: Population=30400, Households=39880
+Year 50: Population=27162, Households=41509
+Simulation complete. Final population: 27162
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50670, Households=20438
+Year 5: Population=53108, Households=22323
+Year 10: Population=55374, Households=24777
+Year 15: Population=56787, Households=27174
+Year 20: Population=57665, Households=29606
+Year 25: Population=58473, Households=31984
+Year 30: Population=59725, Households=34464
+Year 35: Population=61549, Households=36928
+Year 40: Population=63866, Households=39445
+Year 45: Population=66113, Households=41872
+Year 50: Population=68470, Households=44423
+Simulation complete. Final population: 68470
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49840, Households=20453
+Year 5: Population=48940, Households=22258
+Year 10: Population=47323, Households=24509
+Year 15: Population=45233, Households=26696
+Year 20: Population=42810, Households=28849
+Year 25: Population=40376, Households=31045
+Year 30: Population=37688, Households=33098
+Year 35: Population=34822, Households=35045
+Year 40: Population=31889, Households=36865
+Year 45: Population=28920, Households=38557
+Year 50: Population=26014, Households=40025
+Simulation complete. Final population: 26014
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50321, Households=20456
+Year 5: Population=51360, Households=22284
+Year 10: Population=52004, Households=24506
+Year 15: Population=51986, Households=26782
+Year 20: Population=51886, Households=28929
+Year 25: Population=51569, Households=31009
+Year 30: Population=51595, Households=33105
+Year 35: Population=51923, Households=35226
+Year 40: Population=52611, Households=37323
+Year 45: Population=53198, Households=39492
+Year 50: Population=53848, Households=41525
+Simulation complete. Final population: 53848
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50234, Households=20451
+Year 5: Population=51026, Households=22266
+Year 10: Population=51385, Households=24436
+Year 15: Population=51160, Households=26568
+Year 20: Population=50765, Households=28713
+Year 25: Population=50404, Households=30734
+Year 30: Population=50527, Households=32778
+Year 35: Population=51034, Households=34908
+Year 40: Population=51703, Households=36993
+Year 45: Population=52107, Households=39014
+Year 50: Population=52847, Households=41012
+Simulation complete. Final population: 52847
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50186, Households=20471
+Year 5: Population=50671, Households=22298
+Year 10: Population=50540, Households=24532
+Year 15: Population=50105, Households=26628
+Year 20: Population=49504, Households=28717
+Year 25: Population=49109, Households=30692
+Year 30: Population=49154, Households=32669
+Year 35: Population=49462, Households=34631
+Year 40: Population=49826, Households=36668
+Year 45: Population=50212, Households=38658
+Year 50: Population=50819, Households=40561
+Simulation complete. Final population: 50819
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49968, Households=20433
+Year 5: Population=49537, Households=22215
+Year 10: Population=48618, Households=24296
+Year 15: Population=47307, Households=26390
+Year 20: Population=46094, Households=28418
+Year 25: Population=44899, Households=30297
+Year 30: Population=43984, Households=32266
+Year 35: Population=43109, Households=34065
+Year 40: Population=42339, Households=35949
+Year 45: Population=41548, Households=37738
+Year 50: Population=40907, Households=39451
+Simulation complete. Final population: 40907
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49710, Households=20439
+Year 5: Population=48428, Households=22264
+Year 10: Population=46549, Households=24456
+Year 15: Population=44649, Households=26523
+Year 20: Population=42788, Households=28508
+Year 25: Population=40824, Households=30484
+Year 30: Population=38937, Households=32325
+Year 35: Population=37021, Households=34043
+Year 40: Population=35163, Households=35760
+Year 45: Population=33268, Households=37308
+Year 50: Population=31595, Households=38773
+Simulation complete. Final population: 31595
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49514, Households=20429
+Year 5: Population=47368, Households=22231
+Year 10: Population=44680, Households=24374
+Year 15: Population=42104, Households=26343
+Year 20: Population=39536, Households=28214
+Year 25: Population=37032, Households=30016
+Year 30: Population=34563, Households=31786
+Year 35: Population=32035, Households=33470
+Year 40: Population=29342, Households=35047
+Year 45: Population=26695, Households=36447
+Year 50: Population=24254, Households=37737
+Simulation complete. Final population: 24254
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50100, Households=20441
+Year 5: Population=50217, Households=22222
+Year 10: Population=50147, Households=24499
+Year 15: Population=49959, Households=26544
+Year 20: Population=49804, Households=28485
+Year 25: Population=50156, Households=30364
+Year 30: Population=51221, Households=32242
+Year 35: Population=52915, Households=34180
+Year 40: Population=54964, Households=36101
+Year 45: Population=57028, Households=38149
+Year 50: Population=59393, Households=40102
+Simulation complete. Final population: 59393
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50020, Households=20436
+Year 5: Population=49726, Households=22215
+Year 10: Population=49406, Households=24250
+Year 15: Population=49177, Households=26268
+Year 20: Population=48987, Households=28258
+Year 25: Population=49089, Households=30110
+Year 30: Population=49888, Households=31983
+Year 35: Population=51531, Households=33862
+Year 40: Population=53671, Households=35766
+Year 45: Population=55953, Households=37652
+Year 50: Population=58259, Households=39536
+Simulation complete. Final population: 58259
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49953, Households=20454
+Year 5: Population=49553, Households=22176
+Year 10: Population=49401, Households=24211
+Year 15: Population=48980, Households=26181
+Year 20: Population=48642, Households=28061
+Year 25: Population=48791, Households=29905
+Year 30: Population=49560, Households=31713
+Year 35: Population=51007, Households=33538
+Year 40: Population=53162, Households=35454
+Year 45: Population=55313, Households=37342
+Year 50: Population=57643, Households=39214
+Simulation complete. Final population: 57643
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49864, Households=20428
+Year 5: Population=49338, Households=22133
+Year 10: Population=48897, Households=24106
+Year 15: Population=48447, Households=26061
+Year 20: Population=48134, Households=27969
+Year 25: Population=48134, Households=29779
+Year 30: Population=49064, Households=31607
+Year 35: Population=50769, Households=33430
+Year 40: Population=53013, Households=35174
+Year 45: Population=55256, Households=37004
+Year 50: Population=57698, Households=38912
+Simulation complete. Final population: 57698
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49755, Households=20447
+Year 5: Population=49092, Households=22141
+Year 10: Population=48412, Households=24119
+Year 15: Population=47964, Households=26058
+Year 20: Population=47567, Households=27971
+Year 25: Population=47696, Households=29695
+Year 30: Population=48483, Households=31367
+Year 35: Population=50219, Households=33156
+Year 40: Population=52265, Households=34986
+Year 45: Population=54378, Households=36750
+Year 50: Population=56756, Households=38615
+Simulation complete. Final population: 56756
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50092, Households=20465
+Year 5: Population=50151, Households=22256
+Year 10: Population=49782, Households=24532
+Year 15: Population=48829, Households=27006
+Year 20: Population=47355, Households=29289
+Year 25: Population=45598, Households=31660
+Year 30: Population=43442, Households=33944
+Year 35: Population=41062, Households=36189
+Year 40: Population=38404, Households=38279
+Year 45: Population=35809, Households=40223
+Year 50: Population=33105, Households=42097
+Simulation complete. Final population: 33105
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49850, Households=20459
+Year 5: Population=48969, Households=22269
+Year 10: Population=47460, Households=24657
+Year 15: Population=45483, Households=26987
+Year 20: Population=43080, Households=29383
+Year 25: Population=40304, Households=31592
+Year 30: Population=37437, Households=33779
+Year 35: Population=34489, Households=35807
+Year 40: Population=31309, Households=37615
+Year 45: Population=28145, Households=39334
+Year 50: Population=25053, Households=40781
+Simulation complete. Final population: 25053
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50449, Households=20427
+Year 5: Population=51882, Households=22335
+Year 10: Population=52935, Households=24650
+Year 15: Population=53373, Households=26938
+Year 20: Population=53386, Households=29202
+Year 25: Population=53158, Households=31486
+Year 30: Population=53403, Households=33843
+Year 35: Population=53851, Households=36133
+Year 40: Population=54402, Households=38380
+Year 45: Population=54886, Households=40529
+Year 50: Population=55453, Households=42734
+Simulation complete. Final population: 55453
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50292, Households=20437
+Year 5: Population=51188, Households=22225
+Year 10: Population=51525, Households=24557
+Year 15: Population=51321, Households=26955
+Year 20: Population=50714, Households=29207
+Year 25: Population=50065, Households=31406
+Year 30: Population=49668, Households=33531
+Year 35: Population=49524, Households=35738
+Year 40: Population=49272, Households=37815
+Year 45: Population=48974, Households=39829
+Year 50: Population=48657, Households=41875
+Simulation complete. Final population: 48657
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50213, Households=20466
+Year 5: Population=50651, Households=22258
+Year 10: Population=50731, Households=24495
+Year 15: Population=50055, Households=26678
+Year 20: Population=49254, Households=28805
+Year 25: Population=48568, Households=30907
+Year 30: Population=48079, Households=32986
+Year 35: Population=47855, Households=35020
+Year 40: Population=47622, Households=37030
+Year 45: Population=47342, Households=38979
+Year 50: Population=47204, Households=40901
+Simulation complete. Final population: 47204
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50017, Households=20456
+Year 5: Population=49841, Households=22299
+Year 10: Population=49181, Households=24545
+Year 15: Population=48220, Households=26763
+Year 20: Population=47029, Households=28897
+Year 25: Population=45906, Households=30968
+Year 30: Population=44936, Households=32930
+Year 35: Population=44074, Households=34811
+Year 40: Population=43344, Households=36733
+Year 45: Population=42504, Households=38620
+Year 50: Population=41790, Households=40408
+Simulation complete. Final population: 41790
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 monthCreating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50356, Households=20458
+Year 5: Population=51616, Households=22340
+Year 10: Population=52468, Households=24736
+Year 15: Population=52633, Households=27084
+Year 20: Population=52476, Households=29476
+Year 25: Population=51874, Households=31866
+Year 30: Population=51114, Households=34286
+Year 35: Population=50435, Households=36635
+Year 40: Population=49622, Households=38874
+Year 45: Population=48798, Households=41129
+Year 50: Population=47804, Households=43254
+Simulation complete. Final population: 47804
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50158, Households=20468
+Year 5: Population=50456, Households=22296
+Year 10: Population=50259, Households=24572
+Year 15: Population=49468, Households=26940
+Year 20: Population=48222, Households=29142
+Year 25: Population=46765, Households=31460
+Year 30: Population=45074, Households=33693
+Year 35: Population=43261, Households=35817
+Year 40: Population=41489, Households=37886
+Year 45: Population=39672, Households=39855
+Year 50: Population=37714, Households=41764
+Simulation complete. Final population: 37714
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49730, Households=20438
+Year 5: Population=48560, Households=22246
+Year 10: Population=46650, Households=24481
+Year 15: Population=44336, Households=26730
+Year 20: Population=41694, Households=28976
+Year 25: Population=38822, Households=31103
+Year 30: Population=35900, Households=33124
+Year 35: Population=32792, Households=35000
+Year 40: Population=29571, Households=36739
+Year 45: Population=26349, Households=38268
+Year 50: Population=23325, Households=39625
+Simulation complete. Final population: 23325
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50271, Households=20450
+Year 5: Population=50781, Households=22261
+Year 10: Population=50703, Households=24536
+Year 15: Population=50237, Households=26803
+Year 20: Population=49361, Households=29111
+Year 25: Population=48347, Households=31340
+Year 30: Population=47397, Households=33354
+Year 35: Population=46557, Households=35353
+Year 40: Population=45688, Households=37290
+Year 45: Population=44855, Households=39228
+Year 50: Population=44045, Households=41126
+Simulation complete. Final population: 44045
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50073, Households=20457
+Year 5: Population=49902, Households=22271
+Year 10: Population=49217, Households=24472
+Year 15: Population=48149, Households=26606
+Year 20: Population=46793, Households=28789
+Year 25: Population=45345, Households=30915
+Year 30: Population=43887, Households=32882
+Year 35: Population=42537, Households=34892
+Year 40: Population=41186, Households=36782
+Year 45: Population=39845, Households=38600
+Year 50: Population=38454, Households=40361
+Simulation complete. Final population: 38454
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49799, Households=20465
+Year 5: Population=48738, Households=22173
+Year 10: Population=47100, Households=24339
+Year 15: Population=45142, Households=26461
+Year 20: Population=43251, Households=28578
+Year 25: Population=41161, Households=30572
+Year 30: Population=38983, Households=32512
+Year 35: Population=36672, Households=34260
+Year 40: Population=34317, Households=35999
+Year 45: Population=31993, Households=37591
+Year 50: Population=29839, Households=39006
+Simulation complete. Final population: 29839
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49567, Households=20437
+Year 5: Population=47630, Households=22257
+Year 10: Population=45084, Households=24419
+Year 15: Population=42415, Households=26520
+Year 20: Population=39772, Households=28582
+Year 25: Population=37099, Households=30623
+Year 30: Population=34263, Households=32495
+Year 35: Population=31251, Households=34283
+Year 40: Population=28309, Households=35865
+Year 45: Population=25566, Households=37280
+Year 50: Population=22720, Households=38556
+Simulation complete. Final population: 22720
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50255, Households=20443
+Year 5: Population=51038, Households=22184
+Year 10: Population=51492, Households=24342
+Year 15: Population=51480, Households=26485
+Year 20: Population=51347, Households=28449
+Year 25: Population=51600, Households=30374
+Year 30: Population=52545, Households=32372
+Year 35: Population=54290, Households=34413
+Year 40: Population=56445, Households=36527
+Year 45: Population=58487, Households=38536
+Year 50: Population=60882, Households=40625
+Simulation complete. Final population: 60882
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50247, Households=20444
+Year 5: Population=51089, Households=22254
+Year 10: Population=51688, Households=24418
+Year 15: Population=51697, Households=26432
+Year 20: Population=51874, Households=28413
+Year 25: Population=52519, Households=30280
+Year 30: Population=54157, Households=32290
+Year 35: Population=56763, Households=34310
+Year 40: Population=59738, Households=36321
+Year 45: Population=62907, Households=38321
+Year 50: Population=66345, Households=40430
+Simulation complete. Final population: 66345
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49198, Households=20442
+Year 5: Population=46340, Households=22116
+Year 10: Population=42930, Households=24154
+Year 15: Population=39600, Households=26112
+Year 20: Population=36446, Households=28027
+Year 25: Population=33318, Households=29765
+Year 30: Population=30299, Households=31525
+Year 35: Population=27173, Households=33082
+Year 40: Population=24025, Households=34480
+Year 45: Population=21030, Households=35772
+Year 50: Population=18129, Households=36873
+Simulation complete. Final population: 18129
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49773, Households=20433
+Year 5: Population=48786, Households=22180
+Year 10: Population=47571, Households=24315
+Year 15: Population=46445, Households=26372
+Year 20: Population=45352, Households=28350
+Year 25: Population=44548, Households=30177
+Year 30: Population=43889, Households=32072
+Year 35: Population=43584, Households=33833
+Year 40: Population=43439, Households=35578
+Year 45: Population=43256, Households=37288
+Year 50: Population=43407, Households=38915
+Simulation complete. Final population: 43407
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49530, Households=20434
+Year 5: Population=47707, Households=22238
+Year 10: Population=45781, Households=24289
+Year 15: Population=43923, Households=26258
+Year 20: Population=42020, Households=28147
+Year 25: Population=40349, Households=29923
+Year 30: Population=38871, Households=31697
+Year 35: Population=37462, Households=33443
+Year 40: Population=36144, Households=35046
+Year 45: Population=34880, Households=36618
+Year 50: Population=33610, Households=38074
+Simulation complete. Final population: 33610
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49338, Households=20445
+Year 5: Population=46836, Households=22217
+Year 10: Population=43993, Households=24382
+Year 15: Population=41534, Households=26368
+Year 20: Population=39244, Households=28194
+Year 25: Population=36953, Households=29934
+Year 30: Population=34708, Households=31562
+Year 35: Population=32562, Households=33152
+Year 40: Population=30349, Households=34641
+Year 45: Population=28235, Households=36068
+Year 50: Population=26035, Households=37346
+Simulation complete. Final population: 26035
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49097, Households=20452
+Year 5: Population=45787, Households=22118
+Year 10: Population=42290, Households=24149
+Year 15: Population=39079, Households=26031
+Year 20: Population=36091, Households=27829
+Year 25: Population=33293, Households=29555
+Year 30: Population=30481, Households=31178
+Year 35: Population=27543, Households=32583
+Year 40: Population=24717, Households=33907
+Year 45: Population=22037, Households=35094
+Year 50: Population=19337, Households=36194
+Simulation complete. Final population: 19337
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49744, Households=20420
+Year 5: Population=48618, Households=22142
+Year 10: Population=47736, Households=24161
+Year 15: Population=46905, Households=26103
+Year 20: Population=46452, Households=27943
+Year 25: Population=45981, Households=29729
+Year 30: Population=46431, Households=31425
+Year 35: Population=47383, Households=33218
+Year 40: Population=48869, Households=34965
+Year 45: Population=50287, Households=36735
+Year 50: Population=51805, Households=38449
+Simulation complete. Final population: 51805
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49987, Households=20444
+Year 5: Population=49804, Households=22351
+Year 10: Population=49106, Households=24725
+Year 15: Population=47928, Households=27101
+Year 20: Population=46144, Households=29466
+Year 25: Population=43944, Households=31771
+Year 30: Population=41661, Households=34040
+Year 35: Population=38986, Households=36215
+Year 40: Population=36007, Households=38309
+Year 45: Population=33085, Households=40114
+Year 50: Population=30064, Households=41887
+Simulation complete. Final population: 30064
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50815, Households=20433
+Year 5: Population=53467, Households=22330
+Year 10: Population=55996, Households=24732
+Year 15: Population=57765, Households=27145
+Year 20: Population=59033, Households=29575
+Year 25: Population=60392, Households=31874
+Year 30: Population=62428, Households=34240
+Year 35: Population=65378, Households=36753
+Year 40: Population=68475, Households=39224
+Year 45: Population=71627, Households=41734
+Year 50: Population=75049, Households=44299
+Simulation complete. Final population: 75049
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49988, Households=20445
+Year 5: Population=49616, Households=22340
+Year 10: Population=48642, Households=24539
+Year 15: Population=47178, Households=26812
+Year 20: Population=45373, Households=29142
+Year 25: Population=43391, Households=31330
+Year 30: Population=41343, Households=33406
+Year 35: Population=39135, Households=35437
+Year 40: Population=36940, Households=37330
+Year 45: Population=34634, Households=39092
+Year 50: Population=32315, Households=40727
+Simulation complete. Final population: 32315
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50617, Households=20457
+Year 5: Population=52549, Households=22351
+Year 10: Population=54268, Households=24611
+Year 15: Population=55209, Households=26947
+Year 20: Population=55899, Households=29179
+Year 25: Population=56731, Households=31347
+Year 30: Population=58412, Households=33565
+Year 35: Population=61071, Households=35811
+Year 40: Population=64223, Households=38072
+Year 45: Population=67639, Households=40336
+Year 50: Population=71016, Households=42681
+Simulation complete. Final population: 71016
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49664, Households=20445
+Year 5: Population=48107, Households=22251
+Year 10: Population=45813, Households=24463
+Year 15: Population=43328, Households=26601
+Year 20: Population=40689, Households=28706
+Year 25: Population=38065, Households=30812
+Year 30: Population=35287, Households=32738
+Year 35: Population=32336, Households=34538
+Year 40: Population=29325, Households=36176
+Year 45: Population=26434, Households=37720
+Year 50: Population=23721, Households=39018
+Simulation complete. Final population: 23721
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50095, Households=20455
+Year 5: Population=50122, Households=22254
+Year 10: Population=49706, Households=24461
+Year 15: Population=49084, Households=26564
+Year 20: Population=48289, Households=28649
+Year 25: Population=47367, Households=30660
+Year 30: Population=46728, Households=32732
+Year 35: Population=46469, Households=34703
+Year 40: Population=46420, Households=36571
+Year 45: Population=46248, Households=38448
+Year 50: Population=46138, Households=40292
+Simulation complete. Final population: 46138
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49879, Households=20465
+Year 5: Population=49231, Households=22240
+Year 10: Population=47967, Households=24438
+Year 15: Population=46460, Households=26595
+Year 20: Population=44741, Households=28645
+Year 25: Population=43329, Households=30593
+Year 30: Population=41862, Households=32453
+Year 35: Population=40502, Households=34301
+Year 40: Population=39062, Households=36057
+Year 45: Population=37605, Households=37790
+Year 50: Population=36288, Households=39420
+Simulation complete. Final population: 36288
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49620, Households=20424
+Year 5: Population=48060, Households=22175
+Year 10: Population=45965, Households=24382
+Year 15: Population=43787, Households=26439
+Year 20: Population=41499, Households=28535
+Year 25: Population=39346, Households=30502
+Year 30: Population=37089, Households=32310
+Year 35: Population=34819, Households=34119
+Year 40: Population=32473, Households=35726
+Year 45: Population=30315, Households=37244
+Year 50: Population=28170, Households=38676
+Simulation complete. Final population: 28170
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49455, Households=20457
+Year 5: Population=47120, Households=22250
+Year 10: Population=44149, Households=24328
+Year 15: Population=41055, Households=26406
+Year 20: Population=38286, Households=28349
+Year 25: Population=35427, Households=30244
+Year 30: Population=32644, Households=31992
+Year 35: Population=29759, Households=33660
+Year 40: Population=26780, Households=35119
+Year 45: Population=23927, Households=36477
+Year 50: Population=21261, Households=37707
+Simulation complete. Final population: 21261
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49928, Households=20444
+Year 5: Population=49595, Households=22243
+Year 10: Population=48940, Households=24374
+Year 15: Population=48088, Households=26456
+Year 20: Population=47345, Households=28462
+Year 25: Population=46867, Households=30369
+Year 30: Population=46681, Households=32220
+Year 35: Population=46980, Households=34058
+Year 40: Population=47477, Households=35909
+Year 45: Population=48141, Households=37658
+Year 50: Population=48949, Households=39510
+Simulation complete. Final population: 48949
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49730, Households=20426
+Year 5: Population=48379, Households=22133
+Year 10: Population=46810, Households=24187
+Year 15: Population=45254, Households=26201
+Year 20: Population=43943, Households=28118
+Year 25: Population=42578, Households=30016
+Year 30: Population=41667, Households=31807
+Year 35: Population=40821, Households=33587
+Year 40: Population=39984, Households=35364
+Year 45: Population=39249, Households=36919
+Year 50: Population=38578, Households=38484
+Simulation complete. Final population: 38578
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49467, Households=20448
+Year 5: Population=47514, Households=22226
+Year 10: Population=45216, Households=24295
+Year 15: Population=42969, Households=26224
+Year 20: Population=40846, Households=28152
+Year 25: Population=38917, Households=29948
+Year 30: Population=37128, Households=31613
+Year 35: Population=35373, Households=33311
+Year 40: Population=33564, Households=34903
+Year 45: Population=31774, Households=36383
+Year 50: Population=30104, Households=37778
+Simulation complete. Final population: 30104
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49199, Households=20443
+Year 5: Population=46398, Households=22076
+Year 10: Population=43352, Households=24088
+Year 15: Population=40546, Households=26028
+Year 20: Population=37886, Households=27908
+Year 25: Population=35219, Households=29649
+Year 30: Population=32665, Households=31340
+Year 35: Population=30016, Households=32864
+Year 40: Population=27560, Households=34300
+Year 45: Population=25029, Households=35571
+Year 50: Population=22652, Households=36696
+Simulation complete. Final population: 22652
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49927, Households=20451
+Year 5: Population=49733, Households=22195
+Year 10: Population=49691, Households=24251
+Year 15: Population=49633, Households=26189
+Year 20: Population=49701, Households=28035
+Year 25: Population=50403, Households=29814
+Year 30: Population=51752, Households=31559
+Year 35: Population=54400, Households=33364
+Year 40: Population=57593, Households=35273
+Year 45: Population=61038, Households=37333
+Year 50: Population=64395, Households=39316
+Simulation complete. Final population: 64395
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49788, Households=20433
+Year 5: Population=49425, Households=22074
+Year 10: Population=49093, Households=24057
+Year 15: Population=48848, Households=25934
+Year 20: Population=48992, Households=27680
+Year 25: Population=49401, Households=29394
+Year 30: Population=50802, Households=31076
+Year 35: Population=53246, Households=32828
+Year 40: Population=56388, Households=34671
+Year 45: Population=59533, Households=36602
+Year 50: Population=63091, Households=38525
+Simulation complete. Final population: 63091
+s (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49721, Households=20450
+Year 5: Population=48669, Households=22215
+Year 10: Population=47122, Households=24351
+Year 15: Population=45224, Households=26418
+Year 20: Population=43468, Households=28488
+Year 25: Population=41732, Households=30476
+Year 30: Population=39988, Households=32381
+Year 35: Population=38195, Households=34189
+Year 40: Population=36325, Households=35934
+Year 45: Population=34392, Households=37580
+Year 50: Population=32654, Households=39083
+Simulation complete. Final population: 32654
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49612, Households=20445
+Year 5: Population=47545, Households=22278
+Year 10: Population=45270, Households=24523
+Year 15: Population=42835, Households=26542
+Year 20: Population=40319, Households=28500
+Year 25: Population=37793, Households=30471
+Year 30: Population=35295, Households=32300
+Year 35: Population=32660, Households=33915
+Year 40: Population=29961, Households=35508
+Year 45: Population=27485, Households=37027
+Year 50: Population=25107, Households=38353
+Simulation complete. Final population: 25107
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50171, Households=20432
+Year 5: Population=50630, Households=22212
+Year 10: Population=50698, Households=24300
+Year 15: Population=50590, Households=26380
+Year 20: Population=50430, Households=28389
+Year 25: Population=50581, Households=30261
+Year 30: Population=51426, Households=32131
+Year 35: Population=53206, Households=34133
+Year 40: Population=55314, Households=36111
+Year 45: Population=57653, Households=38094
+Year 50: Population=60004, Households=40087
+Simulation complete. Final population: 60004
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=50188, Households=20448
+Year 5: Population=50661, Households=22129
+Year 10: Population=50977, Households=24283
+Year 15: Population=51061, Households=26289
+Year 20: Population=51311, Households=28284
+Year 25: Population=51952, Households=30152
+Year 30: Population=53547, Households=32055
+Year 35: Population=56131, Households=34004
+Year 40: Population=59229, Households=35956
+Year 45: Population=62490, Households=37995
+Year 50: Population=66019, Households=40128
+Simulation complete. Final population: 66019
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49995, Households=20428
+Year 5: Population=50072, Households=22200
+Year 10: Population=50289, Households=24309
+Year 15: Population=50306, Households=26405
+Year 20: Population=50443, Households=28317
+Year 25: Population=51033, Households=30173
+Year 30: Population=52506, Households=32002
+Year 35: Population=54849, Households=33874
+Year 40: Population=58159, Households=35807
+Year 45: Population=61282, Households=37802
+Year 50: Population=64744, Households=39777
+Simulation complete. Final population: 64744
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49087, Households=20443
+Year 5: Population=45777, Households=22139
+Year 10: Population=41959, Households=24251
+Year 15: Population=38645, Households=26235
+Year 20: Population=35382, Households=28110
+Year 25: Population=32373, Households=29940
+Year 30: Population=29268, Households=31599
+Year 35: Population=26217, Households=33104
+Year 40: Population=23250, Households=34449
+Year 45: Population=20217, Households=35635
+Year 50: Population=17478, Households=36685
+Simulation complete. Final population: 17478
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49634, Households=20448
+Year 5: Population=48096, Households=22173
+Year 10: Population=46621, Households=24213
+Year 15: Population=45424, Households=26180
+Year 20: Population=44182, Households=28065
+Year 25: Population=43142, Households=29907
+Year 30: Population=42602, Households=31640
+Year 35: Population=42287, Households=33395
+Year 40: Population=42180, Households=35072
+Year 45: Population=42137, Households=36757
+Year 50: Population=42211, Households=38380
+Simulation complete. Final population: 42211
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49375, Households=20439
+Year 5: Population=47229, Households=22197
+Year 10: Population=44950, Households=24233
+Year 15: Population=43044, Households=26168
+Year 20: Population=41258, Households=28060
+Year 25: Population=39641, Households=29842
+Year 30: Population=38089, Households=31464
+Year 35: Population=36795, Households=33036
+Year 40: Population=35505, Households=34602
+Year 45: Population=34241, Households=36088
+Year 50: Population=33074, Households=37510
+Simulation complete. Final population: 33074
+  [  1/144] FM=0.400 MM=0.300 → score= -45.67%  pop=27,162  CVD=19.7%  LC=2.63%  (184s, ETA 439min)
+  [  2/144] FM=0.591 MM=0.300 → score= -39.87%  pop=30,064  CVD=18.3%  LC=2.55%  (188s, ETA 222min)
+  [  3/144] FM=0.782 MM=0.300 → score= -33.79%  pop=33,105  CVD=16.8%  LC=2.23%  (198s, ETA 155min)
+  [  4/144] FM=0.973 MM=0.300 → score= -27.32%  pop=36,338  CVD=15.1%  LC=2.06%  (205s, ETA 119min)
+  [  5/144] FM=1.164 MM=0.300 → score= -20.95%  pop=39,525  CVD=14.1%  LC=1.88%  (211s, ETA 98min)
+  [  6/144] FM=1.355 MM=0.300 → score= -11.61%  pop=44,193  CVD=12.7%  LC=1.67%  (215s, ETA 82min)
+  [  7/144] FM=1.545 MM=0.300 → score=  -4.39%  pop=47,804  CVD=12.0%  LC=1.66%  (228s, ETA 74min)
+  [  8/144] FM=1.736 MM=0.300 → score=  +5.58%  pop=52,791  CVD=10.8%  LC=1.39%  (233s, ETA 66min)
+  [  9/144] FM=1.927 MM=0.300 → score= +16.96%  pop=58,481  CVD= 9.8%  LC=1.34%  (244s, ETA 61min)
+  [ 10/144] FM=2.118 MM=0.300 → score= +25.14%  pop=62,568  CVD= 9.2%  LC=1.28%  (251s, ETA 56min)
+  [ 11/144] FM=0.400 MM=0.418 → score= -49.89%  pop=25,053  CVD=16.9%  LC=2.16%  (175s, ETA 75min)
+  [ 12/144] FM=0.591 MM=0.418 → score= -44.57%  pop=27,715  CVD=15.4%  LC=2.09%  (181s, ETA 71min)
+  [ 13/144] FM=0.782 MM=0.418 → score= -39.16%  pop=30,418  CVD=14.1%  LC=1.80%  (185s, ETA 67min)
+  [ 14/144] FM=0.973 MM=0.418 → score= -32.28%  pop=33,860  CVD=12.9%  LC=1.57%  (193s, ETA 63min)
+  [ 15/144] FM=1.164 MM=0.418 → score= -24.57%  pop=37,714  CVD=11.9%  LC=1.54%  (204s, ETA 62min)
+  [ 16/144] FM=2.309 MM=0.300 → score= +36.94%  pop=68,470  CVD= 8.5%  LC=1.10%  (255s, ETA 59min)
+  [ 17/144] FM=1.355 MM=0.418 → score= -16.46%  pop=41,771  CVD=10.7%  LC=1.35%  (208s, ETA 55min)
+  [ 18/144] FM=2.500 MM=0.300 → score= +50.10%  pop=75,049  CVD= 7.8%  LC=1.01%  (263s, ETA 53min)
+  [ 19/144] FM=1.545 MM=0.418 → score=  -8.75%  pop=45,624  CVD=10.3%  LC=1.36%  (216s, ETA 50min)
+  [ 20/144] FM=1.736 MM=0.418 → score=  +0.43%  pop=50,216  CVD= 9.1%  LC=1.15%  (225s, ETA 49min)
+  [ 21/144] FM=0.400 MM=0.536 → score= -53.35%  pop=23,325  CVD=15.8%  LC=1.93%  (185s, ETA 60min)
+  [ 22/144] FM=1.927 MM=0.418 → score= +10.91%  pop=55,453  CVD= 8.5%  LC=1.01%  (249s, ETA 57min)
+  [ 23/144] FM=0.591 MM=0.536 → score= -47.97%  pop=26,014  CVD=14.3%  LC=1.72%  (193s, ETA 55min)
+  [ 24/144] FM=0.782 MM=0.536 → score= -41.60%  pop=29,201  CVD=12.9%  LC=1.53%  (198s, ETA 53min)
+  [ 25/144] FM=2.118 MM=0.418 → score= +20.98%  pop=60,491  CVD= 7.8%  LC=0.98%  (259s, ETA 51min)
+  [ 26/144] FM=0.973 MM=0.536 → score= -35.37%  pop=32,315  CVD=11.8%  LC=1.47%  (204s, ETA 50min)
+  [ 27/144] FM=2.309 MM=0.418 → score= +32.08%  pop=66,040  CVD= 7.1%  LC=0.94%  (266s, ETA 48min)
+  [ 28/144] FM=1.164 MM=0.536 → score= -28.82%  pop=35,590  CVD=10.8%  LC=1.22%  (212s, ETA 46min)
+  [ 29/144] FM=2.500 MM=0.418 → score= +46.40%  pop=73,199  CVD= 6.5%  LC=0.86%  (275s, ETA 45min)
+  [ 30/144] FM=1.355 MM=0.536 → score= -20.87%  pop=39,564  CVD= 9.5%  LC=1.11%  (220s, ETA 44min)
+  [ 31/144] FM=0.400 MM=0.655 → score= -56.01%  pop=21,996  CVD=14.3%  LC=1.65%  (171s, ETA 51min)
+  [ 32/144] FM=1.545 MM=0.536 → score= -11.91%  pop=44,045  CVD= 8.9%  LC=1.10%  (224s, ETA 49min)
+  [ 33/144] FM=0.591 MM=0.655 → score= -50.66%  pop=24,671  CVD=13.0%  LC=1.58%  (179s, ETA 48min)
+  [ 34/144] FM=1.736 MM=0.536 → score=  -2.68%  pop=48,657  CVD= 7.9%  LC=1.02%  (230s, ETA 46min)
+  [ 35/144] FM=1.927 MM=0.536 → score=  +7.70%  pop=53,848  CVD= 7.4%  LC=0.90%  (235s, ETA 45min)
+  [ 36/144] FM=0.782 MM=0.655 → score= -44.46%  pop=27,771  CVD=11.5%  LC=1.40%  (185s, ETA 43min)
+  [ 37/144] FM=2.118 MM=0.536 → score= +17.31%  pop=58,654  CVD= 6.8%  LC=0.78%  (243s, ETA 43min)
+  [ 38/144] FM=0.973 MM=0.655 → score= -37.00%  pop=31,499  CVD=10.6%  LC=1.14%  (196s, ETA 41min)
+  [ 39/144] FM=2.309 MM=0.536 → score= +28.95%  pop=64,472  CVD= 6.0%  LC=0.72%  (256s, ETA 40min)
+  [ 40/144] FM=2.500 MM=0.536 → score= +42.03%  pop=71,016  CVD= 5.9%  LC=0.75%  (261s, ETA 40min)
+  [ 41/144] FM=1.164 MM=0.655 → score= -31.37%  pop=34,315  CVD= 9.7%  LC=1.12%  (203s, ETA 43min)
+  [ 42/144] FM=1.355 MM=0.655 → score= -23.09%  pop=38,454  CVD= 8.7%  LC=1.01%  (210s, ETA 43min)
+  [ 43/144] FM=1.545 MM=0.655 → score= -14.39%  pop=42,802  CVD= 7.7%  LC=0.90%  (218s, ETA 42min)
+  [ 44/144] FM=0.400 MM=0.773 → score= -58.12%  pop=20,938  CVD=13.7%  LC=1.60%  (173s, ETA 41min)
+  [ 45/144] FM=1.736 MM=0.655 → score=  -5.59%  pop=47,204  CVD= 7.3%  LC=0.88%  (228s, ETA 40min)
+  [ 46/144] FM=0.591 MM=0.773 → score= -52.56%  pop=23,721  CVD=11.8%  LC=1.50%  (176s, ETA 39min)
+  [ 47/144] FM=1.927 MM=0.655 → score=  +5.70%  pop=52,847  CVD= 6.8%  LC=0.81%  (235s, ETA 38min)
+  [ 48/144] FM=2.118 MM=0.655 → score= +14.60%  pop=57,300  CVD= 6.2%  LC=0.67%  (242s, ETA 37min)
+  [ 49/144] FM=2.309 MM=0.655 → score= +28.00%  pop=63,997  CVD= 5.8%  LC=0.64%  (256s, ETA 37min)
+  [ 50/144] FM=2.500 MM=0.655 → score= +37.74%  pop=68,870  CVD= 5.3%  LC=0.59%  (265s, ETA 36min)
+  [ 51/144] FM=0.782 MM=0.773 → score= -46.96%  pop=26,517  CVD=10.8%  LC=1.26%  (179s, ETA 37min)
+  [ 52/144] FM=0.973 MM=0.773 → score= -40.32%  pop=29,839  CVD= 9.7%  LC=1.18%  (187s, ETA 37min)
+  [ 53/144] FM=1.164 MM=0.773 → score= -32.96%  pop=33,520  CVD= 8.8%  LC=1.04%  (192s, ETA 36min)
+  [ 54/144] FM=1.355 MM=0.773 → score= -24.77%  pop=37,612  CVD= 8.0%  LC=0.90%  (199s, ETA 35min)
+  [ 55/144] FM=1.545 MM=0.773 → score= -16.42%  pop=41,790  CVD= 7.3%  LC=0.87%  (206s, ETA 35min)
+  [ 56/144] FM=1.736 MM=0.773 → score=  -7.72%  pop=46,138  CVD= 6.7%  LC=0.78%  (209s, ETA 34min)
+  [ 57/144] FM=1.927 MM=0.773 → score=  +1.64%  pop=50,819  CVD= 6.3%  LC=0.68%  (219s, ETA 34min)
+  [ 58/144] FM=2.118 MM=0.773 → score= +13.50%  pop=56,751  CVD= 5.7%  LC=0.65%  (226s, ETA 33min)
+  [ 59/144] FM=0.400 MM=0.891 → score= -59.64%  pop=20,181  CVD=12.7%  LC=1.50%  (155s, ETA 33min)
+  [ 60/144] FM=2.309 MM=0.773 → score= +23.80%  pop=61,899  CVD= 5.2%  LC=0.58%  (234s, ETA 32min)
+  [ 61/144] FM=0.591 MM=0.891 → score= -54.56%  pop=22,720  CVD=11.3%  LC=1.31%  (163s, ETA 32min)
+  [ 62/144] FM=2.500 MM=0.773 → score= +37.27%  pop=68,635  CVD= 4.8%  LC=0.49%  (246s, ETA 31min)
+  [ 63/144] FM=0.782 MM=0.891 → score= -48.57%  pop=25,712  CVD=10.4%  LC=1.19%  (167s, ETA 31min)
+  [ 64/144] FM=0.973 MM=0.891 → score= -41.59%  pop=29,206  CVD= 9.2%  LC=0.99%  (176s, ETA 30min)
+  [ 65/144] FM=1.164 MM=0.891 → score= -34.69%  pop=32,654  CVD= 8.2%  LC=0.91%  (182s, ETA 30min)
+  [ 66/144] FM=1.355 MM=0.891 → score= -27.42%  pop=36,288  CVD= 7.8%  LC=0.80%  (186s, ETA 29min)
+  [ 67/144] FM=1.545 MM=0.891 → score= -18.18%  pop=40,907  CVD= 6.8%  LC=0.77%  (197s, ETA 29min)
+  [ 68/144] FM=1.736 MM=0.891 → score=  -9.65%  pop=45,173  CVD= 6.4%  LC=0.69%  (203s, ETA 29min)
+  [ 69/144] FM=0.400 MM=1.009 → score= -61.27%  pop=19,364  CVD=12.3%  LC=1.42%  (152s, ETA 29min)
+  [ 70/144] FM=1.927 MM=0.891 → score=  +0.46%  pop=50,229  CVD= 5.6%  LC=0.57%  (213s, ETA 28min)
+  [ 71/144] FM=2.118 MM=0.891 → score= +11.28%  pop=55,639  CVD= 5.3%  LC=0.57%  (221s, ETA 27min)
+  [ 72/144] FM=0.591 MM=1.009 → score= -55.90%  pop=22,051  CVD=10.6%  LC=1.22%  (160s, ETA 27min)
+  [ 73/144] FM=0.782 MM=1.009 → score= -49.78%  pop=25,107  CVD= 9.4%  LC=1.02%  (167s, ETA 26min)
+  [ 74/144] FM=2.309 MM=0.891 → score= +21.77%  pop=60,882  CVD= 4.9%  LC=0.51%  (234s, ETA 26min)
+  [ 75/144] FM=2.500 MM=0.891 → score= +34.15%  pop=67,072  CVD= 4.6%  LC=0.48%  (242s, ETA 25min)
+  [ 76/144] FM=0.973 MM=1.009 → score= -43.66%  pop=28,170  CVD= 8.7%  LC=0.90%  (170s, ETA 25min)
+  [ 77/144] FM=1.164 MM=1.009 → score= -36.81%  pop=31,595  CVD= 7.7%  LC=0.89%  (178s, ETA 25min)
+  [ 78/144] FM=1.355 MM=1.009 → score= -28.10%  pop=35,948  CVD= 6.8%  LC=0.77%  (185s, ETA 24min)
+  [ 79/144] FM=1.545 MM=1.009 → score= -20.71%  pop=39,646  CVD= 6.5%  LC=0.69%  (194s, ETA 24min)
+  [ 80/144] FM=1.736 MM=1.009 → score= -10.64%  pop=44,679  CVD= 6.0%  LC=0.62%  (203s, ETA 24min)
+  [ 81/144] FM=0.400 MM=1.127 → score= -62.74%  pop=18,631  CVD=11.5%  LC=1.29%  (151s, ETA 23min)
+  [ 82/144] FM=1.927 MM=1.009 → score=  -0.88%  pop=49,559  CVD= 5.5%  LC=0.59%  (211s, ETA 23min)
+  [ 83/144] FM=0.591 MM=1.127 → score= -57.48%  pop=21,261  CVD=10.3%  LC=1.17%  (155s, ETA 22min)
+  [ 84/144] FM=2.118 MM=1.009 → score=  +8.52%  pop=54,261  CVD= 5.0%  LC=0.53%  (219s, ETA 22min)
+  [ 85/144] FM=0.782 MM=1.127 → score= -51.49%  pop=24,254  CVD= 9.0%  LC=1.06%  (163s, ETA 22min)
+  [ 86/144] FM=2.309 MM=1.009 → score= +20.01%  pop=60,004  CVD= 4.7%  LC=0.47%  (228s, ETA 21min)
+  [ 87/144] FM=2.500 MM=1.009 → score= +32.69%  pop=66,345  CVD= 4.3%  LC=0.44%  (240s, ETA 20min)
+  [ 88/144] FM=0.973 MM=1.127 → score= -45.12%  pop=27,441  CVD= 8.4%  LC=0.87%  (167s, ETA 20min)
+  [ 89/144] FM=1.164 MM=1.127 → score= -37.66%  pop=31,169  CVD= 7.5%  LC=0.78%  (177s, ETA 20min)
+  [ 90/144] FM=1.355 MM=1.127 → score= -29.18%  pop=35,411  CVD= 6.8%  LC=0.70%  (185s, ETA 20min)
+  [ 91/144] FM=1.545 MM=1.127 → score= -22.16%  pop=38,919  CVD= 6.3%  LC=0.66%  (195s, ETA 19min)
+  [ 92/144] FM=1.736 MM=1.127 → score= -12.14%  pop=43,930  CVD= 5.6%  LC=0.60%  (201s, ETA 19min)
+  [ 93/144] FM=1.927 MM=1.127 → score=  -2.10%  pop=48,949  CVD= 5.1%  LC=0.52%  (208s, ETA 18min)
+  [ 94/144] FM=0.400 MM=1.245 → score= -63.74%  pop=18,129  CVD=11.4%  LC=1.24%  (152s, ETA 18min)
+  [ 95/144] FM=2.118 MM=1.127 → score=  +7.19%  pop=53,596  CVD= 4.8%  LC=0.44%  (216s, ETA 18min)
+  [ 96/144] FM=0.591 MM=1.245 → score= -57.76%  pop=21,118  CVD= 9.9%  LC=0.96%  (155s, ETA 17min)
+  [ 97/144] FM=2.309 MM=1.127 → score= +18.79%  pop=59,393  CVD= 4.3%  LC=0.41%  (227s, ETA 17min)
+  [ 98/144] FM=2.500 MM=1.127 → score= +32.04%  pop=66,019  CVD= 4.2%  LC=0.43%  (239s, ETA 16min)
+  [ 99/144] FM=0.782 MM=1.245 → score= -52.20%  pop=23,898  CVD= 8.7%  LC=1.00%  (163s, ETA 16min)
+  [100/144] FM=0.973 MM=1.245 → score= -46.00%  pop=26,998  CVD= 7.9%  LC=0.85%  (169s, ETA 16min)
+  [101/144] FM=1.164 MM=1.245 → score= -39.14%  pop=30,427  CVD= 6.9%  LC=0.75%  (175s, ETA 15min)
+  [102/144] FM=1.355 MM=1.245 → score= -31.62%  pop=34,189  CVD= 6.4%  LC=0.67%  (179s, ETA 15min)
+  [103/144] FM=1.545 MM=1.245 → score= -22.84%  pop=38,578  CVD= 5.9%  LC=0.66%  (187s, ETA 15min)
+  [104/144] FM=1.736 MM=1.245 → score= -13.18%  pop=43,407  CVD= 5.1%  LC=0.57%  (201s, ETA 14min)
+  [105/144] FM=1.927 MM=1.245 → score=  -3.34%  pop=48,327  CVD= 4.9%  LC=0.49%  (209s, ETA 14min)
+  [106/144] FM=2.118 MM=1.245 → score=  +7.05%  pop=53,526  CVD= 4.5%  LC=0.46%  (214s, ETA 14min)
+  [107/144] FM=0.400 MM=1.364 → score= -64.77%  pop=17,613  CVD=10.7%  LC=1.28%  (148s, ETA 13min)
+  [108/144] FM=0.591 MM=1.364 → score= -59.62%  pop=20,189  CVD= 9.1%  LC=0.97%  (156s, ETA 13min)
+  [109/144] FM=2.309 MM=1.245 → score= +16.52%  pop=58,259  CVD= 4.2%  LC=0.42%  (227s, ETA 12min)
+  [110/144] FM=0.782 MM=1.364 → score= -53.86%  pop=23,068  CVD= 8.6%  LC=1.03%  (169s, ETA 12min)
+  [111/144] FM=2.500 MM=1.245 → score= +29.49%  pop=64,744  CVD= 3.8%  LC=0.34%  (243s, ETA 12min)
+  [112/144] FM=0.973 MM=1.364 → score= -47.24%  pop=26,378  CVD= 7.7%  LC=0.88%  (174s, ETA 11min)
+  [113/144] FM=1.164 MM=1.364 → score= -39.79%  pop=30,104  CVD= 6.6%  LC=0.70%  (180s, ETA 11min)
+  [114/144] FM=1.355 MM=1.364 → score= -32.78%  pop=33,610  CVD= 6.1%  LC=0.66%  (189s, ETA 11min)
+  [115/144] FM=1.545 MM=1.364 → score= -23.61%  pop=38,192  CVD= 5.4%  LC=0.58%  (196s, ETA 10min)
+  [116/144] FM=1.736 MM=1.364 → score= -14.28%  pop=42,857  CVD= 5.0%  LC=0.52%  (204s, ETA 10min)
+  [117/144] FM=1.927 MM=1.364 → score=  -3.55%  pop=48,222  CVD= 4.7%  LC=0.47%  (214s, ETA 10min)
+  [118/144] FM=0.400 MM=1.482 → score= -65.04%  pop=17,478  CVD=10.1%  LC=1.08%  (148s, ETA 9min)
+  [119/144] FM=0.591 MM=1.482 → score= -60.47%  pop=19,766  CVD= 9.2%  LC=1.01%  (151s, ETA 9min)
+  [120/144] FM=2.118 MM=1.364 → score=  +4.39%  pop=52,195  CVD= 4.3%  LC=0.37%  (219s, ETA 8min)
+  [121/144] FM=2.309 MM=1.364 → score= +15.29%  pop=57,643  CVD= 4.1%  LC=0.42%  (224s, ETA 8min)
+  [122/144] FM=0.782 MM=1.482 → score= -54.70%  pop=22,652  CVD= 8.1%  LC=0.90%  (156s, ETA 8min)
+  [123/144] FM=2.500 MM=1.364 → score= +30.01%  pop=65,005  CVD= 3.6%  LC=0.33%  (236s, ETA 7min)
+  [124/144] FM=0.973 MM=1.482 → score= -47.93%  pop=26,035  CVD= 7.2%  LC=0.65%  (173s, ETA 7min)
+  [125/144] FM=1.164 MM=1.482 → score= -40.54%  pop=29,728  CVD= 6.4%  LC=0.63%  (180s, ETA 7min)
+  [126/144] FM=1.355 MM=1.482 → score= -33.43%  pop=33,286  CVD= 5.9%  LC=0.53%  (183s, ETA 6min)
+  [127/144] FM=1.545 MM=1.482 → score= -24.32%  pop=37,838  CVD= 5.2%  LC=0.50%  (193s, ETA 6min)
+  [128/144] FM=1.736 MM=1.482 → score= -15.58%  pop=42,211  CVD= 4.8%  LC=0.44%  (201s, ETA 6min)
+  [129/144] FM=1.927 MM=1.482 → score=  -5.18%  pop=47,410  CVD= 4.4%  LC=0.44%  (209s, ETA 5min)
+  [130/144] FM=0.400 MM=1.600 → score= -66.32%  pop=16,838  CVD= 9.8%  LC=1.12%  (148s, ETA 5min)
+  [131/144] FM=2.118 MM=1.482 → score=  +4.84%  pop=52,420  CVD= 4.3%  LC=0.42%  (218s, ETA 5min)
+  [132/144] FM=0.591 MM=1.600 → score= -61.33%  pop=19,337  CVD= 9.2%  LC=0.91%  (153s, ETA 4min)
+  [133/144] FM=2.309 MM=1.482 → score= +15.40%  pop=57,698  CVD= 3.7%  LC=0.35%  (228s, ETA 4min)
+  [134/144] FM=2.500 MM=1.482 → score= +28.79%  pop=64,395  CVD= 3.6%  LC=0.33%  (237s, ETA 3min)
+  [135/144] FM=0.782 MM=1.600 → score= -55.02%  pop=22,489  CVD= 7.8%  LC=0.86%  (161s, ETA 3min)
+  [136/144] FM=0.973 MM=1.600 → score= -49.23%  pop=25,382  CVD= 6.9%  LC=0.74%  (164s, ETA 3min)
+  [137/144] FM=1.164 MM=1.600 → score= -42.03%  pop=28,984  CVD= 6.3%  LC=0.63%  (170s, ETA 2min)
+  [138/144] FM=1.355 MM=1.600 → score= -33.85%  pop=33,074  CVD= 5.7%  LC=0.60%  (171s, ETA 2min)
+  [139/144] FM=1.545 MM=1.600 → score= -26.47%  pop=36,762  CVD= 5.2%  LC=0.53%  (170s, ETA 2min)
+  [140/144] FM=1.736 MM=1.600 → score= -17.13%  pop=41,433  CVD= 4.6%  LC=0.49%  (175s, ETA 1min)
+  [141/144] FM=1.927 MM=1.600 → score=  -6.48%  pop=46,761  CVD= 4.1%  LC=0.42%  (175s, ETA 1min)
+  [142/144] FM=2.118 MM=1.600 → score=  +3.61%  pop=51,805  CVD= 3.9%  LC=0.31%  (176s, ETA 1min)
+  [143/144] FM=2.309 MM=1.600 → score= +13.51%  pop=56,756  CVD= 3.6%  LC=0.34%  (169s, ETA 0min)
+  [144/144] FM=2.500 MM=1.600 → score= +26.18%  pop=63,091  CVD= 3.4%  LC=0.32%  (166s, ETA 0min)
+
+Całkowity czas: 49.1 min
+
+Score min:    -66.32%
+Score max:    +50.10%
+Score mediana: -22.50%
+
+Punkty stabilne (|score|<2%): 4
+  FM=1.736  MM=0.418  score=+0.43%
+  FM=1.927  MM=0.891  score=+0.46%
+  FM=1.927  MM=1.009  score=-0.88%
+  FM=1.927  MM=0.773  score=+1.64%
+
+✓ JSON: gridsearch_full_abm_no_rf_20260511_114958.json
+✓ Heatmapa: heatmap_gridsearch_full_abm_no_rf_20260511_114958.png
+
+==============================================================================

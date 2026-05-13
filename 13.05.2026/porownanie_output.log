@@ -1,0 +1,62 @@
+===========================================================================
+PORÓWNANIE PIRAMID — model ryzyka Cox (CVD + Lung Cancer + Hipercholesterol.)
+Populacja: 50,000 | Symulacja: 600 mies. (50 lat)
+===========================================================================
+
+Uruchamiam 2 symulacji równolegle...
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49448, Households=20425
+Year 5: Population=47325, Households=22181
+Year 10: Population=45002, Households=24193
+Year 15: Population=43115, Households=25966
+Year 20: Population=41436, Households=27755
+Year 25: Population=40128, Households=29423
+Year 30: Population=39160, Households=31036
+Year 35: Population=38371, Households=32675
+Year 40: Population=37678, Households=34254
+Year 45: Population=37144, Households=35799
+Year 50: Population=36721, Households=37221
+Simulation complete. Final population: 36721
+Creating synthetic realistic Polish population of 50000 citizens...
+  Created 49999 citizens in 20000 households
+  Created 4 zones with environmental parameters
+Starting simulation for 600 months (50.0 years)
+Initial population: 49999 citizens
+Year 1: Population=49947, Households=20444
+Year 5: Population=49576, Households=22166
+Year 10: Population=48778, Households=24180
+Year 15: Population=47990, Households=26178
+Year 20: Population=47294, Households=28142
+Year 25: Population=47067, Households=30044
+Year 30: Population=47567, Households=31804
+Year 35: Population=48625, Households=33599
+Year 40: Population=50148, Households=35476
+Year 45: Population=51699, Households=37317
+Year 50: Population=53259, Households=39204
+Simulation complete. Final population: 53259
+  [OK]  DOLNY-ŚRODKOWY siatki 3x3: score=-26.56%  final_pop=36721
+  [OK]  OPTIMUM gridsearcha: score=+6.52%  final_pop=53259
+
+===========================================================================
+STATYSTYKI KOŃCOWE (po 50 latach)
+===========================================================================
+
+[OPTIMUM gridsearcha]  FM=2.1182  MM=1.1273
+  Populacja:  49,999 → 53,259  (+6.52%)
+  Mediana wieku: 31.2 lat
+  CVD                       prev= 4.93%  mean H_cum=0.0571
+  Lung Cancer               prev= 0.72%  mean H_cum=0.0076
+  RF: smoking=1.5%  obesity=1.9%  chol=0.4%  hyper=0.2%
+
+[DOLNY-ŚRODKOWY siatki 3x3]  FM=1.5455  MM=1.6000
+  Populacja:  49,999 → 36,721  (-26.56%)
+  Mediana wieku: 37.5 lat
+  CVD                       prev= 5.45%  mean H_cum=0.0622
+  Lung Cancer               prev= 0.71%  mean H_cum=0.0080
+  RF: smoking=1.7%  obesity=2.1%  chol=0.4%  hyper=0.1%
+
+✓ Zapisano: piramida_porownanie_ryzyko.html
