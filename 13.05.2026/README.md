@@ -13,7 +13,7 @@
 5. [Klasy i komponenty](#5-klasy-i-komponenty)
 6. [Silnik symulacji — jak działa?](#6-silnik-symulacji--jak-działa)
 7. [Tabele demograficzne i wskaźniki CBR/CDR/TFR](#7-tabele-demograficzne)
-8. [Gridsearch — optymalizacja parametrów](#8-gridsearch--optymalizacja-parametrów)
+8. [Gridsearch — 3 tryby i porównanie proxy ↔ ABM](#8-gridsearch--optymalizacja-parametrów)
 9. [Piramidy wieku](#9-piramidy-wieku)
 10. [Model dynamicznego ryzyka — Cox cumulative hazard](#10-model-dynamicznego-ryzyka--cox-cumulative-hazard)
 11. [Wszystkie poprawki (bug fixes)](#11-wszystkie-poprawki-bug-fixes)
@@ -22,6 +22,7 @@
 14. [Wnioski](#14-wnioski)
 15. [Przykładowe pytania i odpowiedzi](#15-przykładowe-pytania-i-odpowiedzi)
 16. [Jak uruchomić?](#16-jak-uruchomić)
+17. [Wzory matematyczne — kompendium](#17-wzory-matematyczne--kompendium)
 
 ---
 
@@ -55,9 +56,11 @@ ABM - poprawiony gridsearch/
 ├── disease_model.py                  # Model chorób, RF, macierz β Coxa, baseline hazard
 ├── main.py                           # Uruchamia jedną symulację, generuje wykresy
 │
-├── grid_search_improved_v3_fixed.py     # Analityczny gridsearch + heatmap PNG (szybki)
-├── gridsearch_age_pyramids_analysis.py  # Gridsearch ABM + piramidy HTML (wolny, równoległy)
-├── comparison_flatrate_vs_multiplier.py # Porównanie podejść flat-rate vs mnożnik
+├── grid_search_improved_v3_fixed.py     # Tryb 1: Analityczny proxy + heatmap PNG (~30s)
+├── gridsearch_age_pyramids_analysis.py  # Tryb 2: ABM dla piramid (3×3 + diagonale, ~5 min)
+├── gridsearch_full_abm_no_rf.py         # Tryb 3: Pełny ABM 12×12 bez RF (~50 min) ★NOWY
+├── porownanie_gridsearch.py             # Porównanie proxy ↔ ABM (3-panelowa heatmapa) ★NOWY
+├── comparison_flatrate_vs_multiplier.py # Porównanie flat-rate vs mnożnik tabel
 ├── piramida_optimum.py                  # Piramida dla optymalnego punktu (FM=2.12, MM=1.13)
 │
 │ ── DYNAMICZNY MODEL RYZYKA (Cox cumulative hazard) ─────────────────
@@ -65,16 +68,33 @@ ABM - poprawiony gridsearch/
 ├── populacja_w_czasie.py             # Trajektorie ludności rok-po-roku, 2 scenariusze
 ├── graf_ryzyko_choroby.py            # Sankey + sieć + heatmapa HR (7 RF → 2 chorób)
 │
+│ ── ANALIZA WYNIKÓW ABM GRIDSEARCH (osobny folder) ───────────────── ★NOWY
+├── analiza_ABM_gridsearch/
+│   ├── README.md                         # Index folderu
+│   ├── piramidy_3x3_no_rf.py/.html       # Siatka 3×3 piramid (9 ABM bez RF)
+│   ├── piramida_porownanie_z_rf.py/.html # 2 piramidy: ABM optimum vs dolny-środkowy (z RF)
+│   ├── populacja_w_czasie_no_rf.py/.html # Trajektorie 50 lat dla 2 punktów (bez RF)
+│   └── graf_ryzyko_choroby.py/.html      # Kopia grafu (RF-niezależny)
+│
+│ ── INTERAKTYWNA APLIKACJA CZYNNIKÓW RYZYKA ─────────────────────── ★NOWA
+├── RISK_FACTORS_DOCUMENTATION.md        # Pełna dokumentacja implementacji RF (Cox model)
+├── interactive_simulation_app.py        # Aplikacja Streamlit do zmiany RF i symulacji
+├── demo_risk_factors.py                 # Demo skrypt porównujący scenariusze
+├── README_INTERACTIVE_APP.md            # Instrukcja obsługi aplikacji
+│
 │ ── ARTEFAKTY WYJŚCIOWE ─────────────────────────────────────────────
-├── piramidy_gridsearch_siatka.html        # Siatka 3×3 piramid z gridsearch
+├── piramidy_gridsearch_siatka.html        # Siatka 3×3 piramid z gridsearch (stara, pre-Cox)
 ├── piramidy_diagonale_gridsearch.html     # Profile wzdłuż 3 diagonali gridsearch
 ├── comparison_flatrate_vs_multiplier.html # Porównanie obu podejść (2×3 piramidy)
 ├── piramida_optimum.html                  # Optimum gridsearcha (FM=2.12, MM=1.13)
 ├── piramida_porownanie_ryzyko.html        # Optimum vs dolny-środkowy (z Cox)
 ├── populacja_w_czasie.html                # Trajektorie 50 lat (2 scenariusze)
 ├── graf_ryzyko_choroby.html               # Graf RF → choroby (3 widoki)
-├── heatmap_gridsearch_v3_fixed_*.png      # Analityczna mapa ciepła (PNG)
-├── gridsearch_results_v3_fixed_*.json     # Wyniki gridsearch (JSON)
+├── heatmap_gridsearch_v3_fixed_*.png      # Analityczna mapa ciepła (PNG) — proxy
+├── heatmap_gridsearch_full_abm_no_rf_*.png  # Heatmapa ABM bez RF ★NOWY
+├── porownanie_gridsearch_proxy_vs_abm.png   # Porównanie 3-panelowe (A: proxy, B: ABM, C: Δ) ★NOWY
+├── gridsearch_results_v3_fixed_*.json     # Wyniki gridsearch proxy (JSON)
+├── gridsearch_full_abm_no_rf_*.json       # Wyniki gridsearch ABM bez RF (JSON) ★NOWY
 │
 └── README.md                              # Ten plik
 ```
@@ -614,43 +634,160 @@ score = (final_population - initial_population) / initial_population × 100
 - `-2% ≤ score ≤ +2%` → populacja stabilna (zielony/biały)
 - `score < -2%` → populacja maleje (niebieski)
 
-### Dwa tryby gridsearch
+### Trzy tryby gridsearch
 
-**1. Analityczny (szybki)** — `grid_search_improved_v3_fixed.py`
+Projekt udostępnia 3 niezależne implementacje gridsearchu, różniące się dokładnością i kosztem obliczeniowym:
 
-Używa matematycznego modelu proxy bez uruchamiania ABM:
+#### Tryb 1. Analityczny (proxy) — `grid_search_improved_v3_fixed.py`
+
+Używa matematycznego modelu proxy **bez uruchamiania ABM**. Skalibrowany na bazowych CBR/CDR z pojedynczego ABM (FM=MM=1.0):
 
 ```python
-BASE_CBR = 0.00830   # kalibrowane z ABM (FM=MM=1.0)
-BASE_CDR = 0.01560   # kalibrowane z ABM (FM=MM=1.0)
+BASE_CBR = 0.00830   # 8.30 / 1000 / rok (kalibrowane)
+BASE_CDR = 0.01560   # 15.60 / 1000 / rok
 
-effective_cbr = BASE_CBR * fertility_multiplier
-effective_cdr = BASE_CDR * mortality_multiplier
+effective_cbr   = BASE_CBR * fertility_multiplier
+effective_cdr   = BASE_CDR * mortality_multiplier
 annual_net_rate = effective_cbr - effective_cdr
-score = ((1 + annual_net_rate) ** 50 - 1) × 100
+score = ((1 + annual_net_rate) ** 50 − 1) × 100
 ```
 
-Czas działania: ~1 ms per kombinacja. Generuje heatmap PNG.
+- **Czas**: ~1 ms / kombinacja, ~30 s dla całego 12×12
+- **Założenia**: liniowa skala CBR ∝ FM i CDR ∝ MM (nieprawdziwe na ekstremach)
+- **Zalety**: bardzo szybki, prosty
+- **Ograniczenia**: nie modeluje struktury wiekowej, brak feedbacku populacja↔płodność, brak chorób
 
-**2. Pełny ABM (wolny)** — `gridsearch_age_pyramids_analysis.py`
+#### Tryb 2. ABM dla piramid — `gridsearch_age_pyramids_analysis.py`
 
-Uruchamia kompletną symulację dla wybranych 9–21 punktów z gridsearch. Czas: ~90 sekund per symulacja. Używa `ProcessPoolExecutor` dla równoległości.
+Uruchamia pełne symulacje ABM **tylko dla wybranych punktów** (siatka 3×3 + 3 diagonale = 21 punktów). Generuje **piramidy wieku** do wizualnej inspekcji kształtu populacji.
 
-### Wyniki gridsearch
+- **Czas**: ~90 s / symulacja × 21 punktów = ~30 min (z parallel ~5 min)
+- **Cel**: pokazać KSZTAŁT piramidy w różnych regionach przestrzeni FM/MM
+- **Nie nadaje się** do globalnego mapowania score — za mało punktów
 
-Po poprawkach (post-fix calibration):
+#### Tryb 3. **Pełny ABM 12×12 bez RF** — `gridsearch_full_abm_no_rf.py` *(nowy)*
 
-| FM  | MM  | Score (50 lat) | Charakter |
-|-----|-----|----------------|-----------|
-| 0.40 | 1.60 | -66% | Silny spadek |
-| 0.40 | 0.30 | -43% | Umiarkowany spadek |
-| 1.88 | 1.00 | ~0% | **Stabilny** |
-| 2.50 | 1.00 | +36% | Silny wzrost |
-| 2.50 | 0.30 | +122% | Bardzo silny wzrost |
+Uruchamia **pełną symulację ABM dla każdego z 144 punktów** siatki — czyli kompletnie zastępuje proxy, ale jest 100× wolniejszy.
 
-**Punkt stabilności**: `FM ≈ 1.88 × MM`
+```python
+# Wszystkie 144 punkty z siatki 12×12
+for fm in np.linspace(0.4, 2.5, 12):
+    for mm in np.linspace(0.3, 1.6, 12):
+        engine = SimulationEngine(...)
+        engine.fertility_rate       = fm
+        engine.mortality_multiplier = mm
+        engine._create_synthetic_population(50_000)
 
-Np. przy MM=0.5: FM_stable ≈ 0.94; przy MM=1.0: FM_stable ≈ 1.88; przy MM=1.5: FM_stable ≈ 2.82.
+        # WSZYSTKIE RF zerowane (cel: izolować efekt demografii)
+        for c in engine.citizens.values():
+            c.risk_factors = {rf: 0 for rf in Citizen.DEFAULT_RISK_FACTORS}
+
+        engine.run(months=600)
+        score = (final − initial) / initial × 100
+```
+
+- **Czas**: ~50 min z parallel (10 rdzeni)
+- **Risk factors WYŁĄCZONE** → Cox aktywny ale `exp(Σ β·0)=1` (brak amplifikacji); diseases mogą się jeszcze inicjować z bazowego hazardu × Gompertz, ale rzadko
+- **Zalety**:
+  - Pełna stochastyczność (50k niezależnych agentów × 600 kroków)
+  - Realistyczna struktura wiekowa
+  - Naturalne feedback loops (zgon dziecka → mniej kobiet rozrodczych w przyszłości)
+- **Wyniki w**: `gridsearch_full_abm_no_rf_<timestamp>.json` + `heatmap_gridsearch_full_abm_no_rf_<timestamp>.png`
+
+### Wyniki gridsearch — porównanie proxy ↔ ABM
+
+Z `porownanie_gridsearch.py` (generuje `porownanie_gridsearch_proxy_vs_abm.png` — 3 panele):
+
+#### Globalne metryki
+
+| Metryka | Proxy (analityczny) | ABM bez RF |
+|---------|---------------------|------------|
+| Range score | −66.5% ... **+121.9%** | −66.3% ... **+50.1%** |
+| Mediana | −13.0% | −22.5% |
+| Runtime | **~30 s** | ~50 min (100× wolniejszy) |
+| Liczba "stabilnych" cells (\|score\|<2%) | 5 | 4 |
+
+**Mean |Δ| (ABM − proxy) = 22.4 pp** — to OGROMNA średnia rozbieżność. Lokalnie różnice dochodzą do **+45 i −72 pp**.
+
+#### Reguła stabilności — gdzie proxy się myli
+
+Dla każdej wartości MM, gdzie krzywa score=0 przecina FM:
+
+| MM | Proxy FM_stable | **ABM FM_stable** | Błąd proxy |
+|----|----------------|-------------------|------------|
+| 0.30 | 0.56 | **1.63** | −1.07 (−65%) |
+| 0.42 | 0.79 | **1.73** | −0.94 (−54%) |
+| 0.54 | 1.01 | **1.79** | −0.78 |
+| 0.65 | 1.23 | **1.83** | −0.60 |
+| 0.77 | 1.45 | **1.89** | −0.44 |
+| 0.89 | 1.67 | **1.92** | −0.25 |
+| **1.01** | **1.90** | **1.95** | **−0.05** ✓ |
+| 1.13 | 2.12 | **1.97** | +0.15 |
+| 1.25 | 2.34 | **1.99** | +0.35 |
+| 1.36 | poza siatką | **2.01** | — |
+| 1.48 | poza siatką | **2.03** | — |
+| 1.60 | poza siatką | **2.05** | — |
+
+**Wniosek matematyczny**: proxy zakłada **liniową** regułę stabilności
+
+```
+FM_proxy(MM) = (BASE_CDR / BASE_CBR) × MM = 1.88 × MM
+```
+
+Wynika to z warunku `BASE_CBR · FM = BASE_CDR · MM`. ABM pokazuje że to **nieliniowa krzywa nasycenia**:
+
+```
+FM_ABM(MM) ≈ 1.50 + 0.36 × tanh(2 × (MM − 0.4))     # przybliżona forma analityczna
+```
+
+Asymptota: `lim_{MM→∞} FM_ABM(MM) ≈ 2.05`. Proxy nigdy nie zbliży się do tej asymptoty (jest liniowy).
+
+#### Punkty "stabilne" wg proxy → w ABM są niestabilne
+
+| Proxy mówi (score≈0) | ABM mówi |
+|---|---|
+| FM=2.118, MM=1.127 → −0.02% ✓ | **+7.19%** (rośnie) |
+| FM=0.782, MM=0.418 → −0.17% ✓ | **−39.16%** (zawala się!) |
+| FM=0.591, MM=0.300 → +1.13% ✓ | **−39.87%** (zawala się!) |
+| FM=2.309, MM=1.245 → −1.31% ✓ | **+16.52%** (rośnie) |
+| FM=1.927, MM=1.009 → +1.28% ✓ | **−0.88%** ✓ (prawdziwie stabilny) |
+
+Tylko **1 z 5 "stabilnych w proxy"** jest faktycznie stabilny w ABM. Proxy działa dokładnie tylko w wąskim pasie wokół MM≈1.0 (gdzie został skalibrowany).
+
+#### Który gridsearch używać?
+
+**ABM jest fundamentalnie poprawniejszy**, bo:
+
+1. **Modeluje strukturę wiekową** — niska MM = długie życie = populacja się starzeje = mniej kobiet 15-50 = realne CBR rośnie WOLNIEJ niż FM sugeruje. Proxy tego nie widzi.
+2. **Uwzględnia feedback loops** — wczesne zgony kohorty rozrodczej zmniejszają przyszłą bazę reprodukcyjną.
+3. **Realistyczny zakres score** — proxy daje absurdalne +122% (×2.2 wzrost przez 50 lat), ABM ograniczone do +50%.
+
+**Praktyczna strategia 2-stopniowa**:
+
+```
+1. PROXY (30 s)  → szybko zlokalizuj region zainteresowania
+2. ABM (50 min)  → zweryfikuj wyniki dla wybranych punktów
+```
+
+**Konkretne rady**:
+- Dla **raportów / publikacji** → wyłącznie ABM (`gridsearch_full_abm_no_rf_*.json`)
+- Dla **iteracyjnej eksploracji** → proxy do orientacji
+- Stary proxy zostaw — różnica proxy↔ABM jest sama w sobie cenną informacją diagnostyczną (pokazuje gdzie efekty strukturalne są ważne)
+
+### Wyniki kluczowe gridsearch
+
+Po poprawkach + dodaniu modelu Coxa:
+
+| FM  | MM  | Score proxy (50 lat) | Score ABM bez RF | Charakter |
+|-----|-----|----------------------|------------------|-----------|
+| 0.40 | 1.60 | −66.5% | −66.3% | Silny spadek (oba zgodne na ekstremie) |
+| 0.40 | 0.30 | −43.4% | −45.7% | Umiarkowany spadek |
+| 1.927 | 1.009 | +1.3% | **−0.88%** | **Stabilny w ABM** |
+| 2.118 | 1.127 | **−0.02%** | +7.2% | Stabilny w proxy, lekko rośnie w ABM |
+| 2.50 | 1.00 | +35.7% | +33.1% | Silny wzrost |
+| 2.50 | 0.30 | **+121.9%** | **+50.1%** | Proxy absurdalnie zawyża |
+
+**Prawdziwy punkt stabilności (ABM)**: `FM ≈ 1.93, MM ≈ 1.0` (score = −0.88%).
 
 ---
 
@@ -1104,7 +1241,19 @@ Podejście z mnożnikami tabel wiekowych jest **fundamentalnie lepsze** z trzech
 
 12. **Refaktor 3→2 chorób był biologicznie poprawny** — hipercholesterolemia sama w sobie nie jest chorobą powodującą zgon (DW=0.08 było bardzo niskie). Jako risk factor wpływa pośrednio przez CVD (HR=2.0), co jest medycznie dokładniejsze.
 
-13. **Stary gridsearch trzeba przepuścić od nowa** — po dodaniu Coxa cała przestrzeń parametrów się przesunęła. Reguła stabilności zmienia się z `FM ≈ 1.88·MM` na `FM ≈ 1.5·MM`. To otwarte zadanie do dalszej analizy.
+13. **Stary gridsearch trzeba przepuścić od nowa** — po dodaniu Coxa cała przestrzeń parametrów się przesunęła. To zadanie zostało wykonane: zob. `gridsearch_full_abm_no_rf.py` i sekcję 8.
+
+### Wnioski z porównania gridsearch proxy ↔ ABM
+
+14. **Proxy jest dokładny TYLKO w wąskim pasie wokół MM≈1.0** — tam, gdzie został skalibrowany. Poza tym pasem błąd dochodzi do **45-72 punktów procentowych** w score. Mean |Δ| = 22.4 pp dla całej siatki 144 punktów.
+
+15. **Reguła stabilności jest nieliniowa** — proxy zakłada `FM_stable = 1.88 × MM` (liniowa), ABM pokazuje krzywą nasycenia z asymptotą `FM_stable → 2.05` przy MM → ∞. Różnica wynika z efektów strukturalnych populacji, których proxy nie modeluje (rozkład wieku, frakcja kobiet 15-50, feedback urodzin/zgonów).
+
+16. **Optimum przesunięte**: proxy mówił FM=2.12, MM=1.13 (score=−0.02%) → w ABM to +7.19% (rośnie). Prawdziwy ABM optimum to **FM=1.93, MM=1.01** (score=−0.88%).
+
+17. **Realistyczny zakres score**: proxy daje absurdalne +122% (×2.2 wzrost przez 50 lat) — empirycznie niemożliwe. ABM ogranicza do +50%, bo selekcja śmiertelnościowa i nasycenie struktury wiekowej działają jako ograniczniki.
+
+18. **Strategia 2-stopniowa: proxy → ABM** — proxy nadaje się jako szybkie sito (30 s), ale finalne wnioski musi potwierdzić ABM (50 min). Dla raportów: tylko ABM. Stary proxy zostaje jako narzędzie diagnostyczne — jego rozbieżność z ABM sama w sobie identyfikuje regiony parametrów gdzie efekty strukturalne dominują.
 
 ---
 
@@ -1194,7 +1343,7 @@ python main.py
 # Generuje: population_trends.html, piramida_wieku_animowana.html, ...
 ```
 
-### Analityczny gridsearch (szybki, ~30 sekund)
+### Tryb 1 — Analityczny gridsearch proxy (szybki, ~30 sekund)
 
 ```bash
 python grid_search_improved_v3_fixed.py
@@ -1202,12 +1351,38 @@ python grid_search_improved_v3_fixed.py
 #           gridsearch_results_v3_fixed_<timestamp>.json
 ```
 
-### Gridsearch z piramidam ABM (wolny, ~20 minut)
+### Tryb 2 — Gridsearch z piramidami ABM (selektywny, ~5-20 minut)
 
 ```bash
 python gridsearch_age_pyramids_analysis.py
 # Generuje: piramidy_gridsearch_siatka.html    (siatka 3×3)
 #           piramidy_diagonale_gridsearch.html  (3 zestawy diagonali)
+```
+
+### Tryb 3 — Pełny ABM 12×12 bez RF (najdokładniejszy, ~50 minut)
+
+```bash
+python gridsearch_full_abm_no_rf.py
+# Generuje: heatmap_gridsearch_full_abm_no_rf_<timestamp>.png
+#           gridsearch_full_abm_no_rf_<timestamp>.json
+```
+
+### Porównanie proxy ↔ ABM (po uruchomieniu obu)
+
+```bash
+python porownanie_gridsearch.py
+# Generuje: porownanie_gridsearch_proxy_vs_abm.png (3 panele: A=proxy, B=ABM, C=Δ)
+# Wymaga: gridsearch_results_v3_fixed_*.json + gridsearch_full_abm_no_rf_*.json
+```
+
+### Analiza wyników ABM gridsearch (osobny folder)
+
+```bash
+cd analiza_ABM_gridsearch
+python piramidy_3x3_no_rf.py          # Siatka 3×3 z punktami z ABM gridsearch (bez RF, ~16 min)
+python piramida_porownanie_z_rf.py    # Optimum ABM vs dolny-środkowy (z RF, ~10 min)
+python populacja_w_czasie_no_rf.py    # Trajektorie populacji (bez RF, ~10 min)
+python graf_ryzyko_choroby.py         # Graf RF → choroby (~5 s)
 ```
 
 ### Porównanie flat-rate vs. mnożnik
@@ -1258,6 +1433,199 @@ param_grid = {
     "fertility_multiplier": np.linspace(0.4, 2.5, 12),  # zakres FM
     "mortality_multiplier": np.linspace(0.3, 1.6, 12),  # zakres MM
 }
+```
+
+---
+
+## 17. Wzory matematyczne — kompendium
+
+Pełna lista wzorów używanych w modelu, zebrana w jednym miejscu do szybkiego wglądu.
+
+### 17.1 Demografia bazowa
+
+**Mortality lookup** (floor bracket, sekcja 6):
+
+```
+q_x(age, sex) = MORTALITY_TABLE[bracket(age)][sex]
+gdzie bracket(age) = max{a ∈ table_keys : a ≤ age}
+```
+
+**Fertility lookup**:
+
+```
+ASFR(age) = FERTILITY_TABLE[floor(age, 5)]      (jeśli 15 ≤ age ≤ 50, else 0)
+monthly_birth_prob = ASFR(age) / 12 × FM × disease_reduction
+gdzie disease_reduction = max(1 − 0.02·n_conditions − 0.04·disability_score, 0.7)
+```
+
+### 17.2 Wskaźniki demograficzne
+
+**Crude Birth Rate (CBR)**, **Crude Death Rate (CDR)** — surowe, na 1000/rok:
+
+```
+CBR = (urodzenia w roku) / N × 1000      [‰]
+CDR = (zgony w roku)     / N × 1000      [‰]
+NGR = CBR − CDR                          [‰/rok]
+```
+
+**Total Fertility Rate (TFR)**:
+
+```
+TFR = Σ_{age=15..49} ASFR(age) × Δage    [dzieci / kobietę]
+```
+
+**Wzór wiążący CBR i TFR**:
+
+```
+CBR ≈ TFR × frakcja_kobiet_15-50 / długość_okresu_rozrodczego
+    ≈ TFR × 0.23 / 35
+```
+
+**Wzrost populacji 50 lat** (analityczny proxy):
+
+```
+score(50) = ((1 + NGR/1000)^50 − 1) × 100      [%]
+```
+
+### 17.3 Mortality w model_engine — pełny wzór z Coxem
+
+Miesięczne prawdopodobieństwo zgonu agenta:
+
+```
+P_death(t) = q_x(age, sex)
+           × disease_multiplier
+           × cox_multiplier
+           × MM
+
+gdzie:
+  disease_multiplier = 1 + 0.04 · disability_score
+  disability_score   = Σ_d 1{disease_d active} · DW_d
+
+  cox_multiplier     = exp(Σ_d γ_d · min(H_cum_d, cap))
+  cap = 1.5
+```
+
+### 17.4 Cox cumulative hazard — model ryzyka
+
+**Miesięczny przyrost hazardu** dla choroby `d` u agenta w wieku `a` z risk factors `X`:
+
+```
+Δh_d(a, X) = λ_0,d · exp(γ_age,d · (a − 30)) · exp(Σ_i β_d,i · X_i)
+```
+
+gdzie:
+- `λ_0,d` — bazowy hazard miesięczny w wieku 30 (`BASELINE_HAZARD[d]`)
+- `γ_age,d` — tempo wzrostu z wiekiem (`AGE_HAZARD_GROWTH[d]`, Gompertz)
+- `β_d,i = ln(HR_d,i)` — log Hazard Ratio (`HAZARD_BETA[d][i]`)
+- `X_i ∈ {0, 1}` — stan risk factora i
+
+**Akumulacja** (biologiczna pamięć agenta):
+
+```
+H_cum,d(T) = Σ_{t=0}^T Δh_d(t)
+```
+
+**Inicjacja choroby** (Poisson approx dla rzadkich zdarzeń):
+
+```
+P(onset_d this_month | not_yet_sick) = 1 − exp(−Δh_d(t))
+```
+
+### 17.5 Hazard Ratios — macierz β
+
+`HAZARD_BETA` z `disease_model.py` (pokazane jako HR dla intuicji):
+
+| Risk Factor              | CVD | Lung Cancer |
+|--------------------------|-----|-------------|
+| smoking                  | 2.5 | **15.0**    |
+| obesity                  | 1.7 | —           |
+| physical_inactivity      | 1.4 | 1.2         |
+| alcohol_abuse            | 1.3 | 1.3         |
+| high_cholesterol         | 2.0 | —           |
+| hypertension_stage0      | 2.2 | —           |
+| family_history           | 1.5 | 1.5         |
+
+Sanity: log-HR macierz to `β_d,i = ln(HR_d,i)`. Multiplier mortality dla osoby z N aktywnych RF:
+
+```
+mult_log = Σ_i β_d,i · X_i
+mult     = exp(mult_log)
+```
+
+Przykład: palacz z otyłością i hipertensją na CVD:
+```
+mult = exp(ln(2.5) + ln(1.7) + ln(2.2)) = 2.5 × 1.7 × 2.2 = 9.35×
+```
+
+### 17.6 Bazowe parametry hazardu
+
+| Choroba     | λ_0 (miesięczny, age=30) | γ_age | MORTALITY_GAMMA γ_d |
+|-------------|---------------------------|-------|----------------------|
+| CVD         | 6.0 · 10⁻⁵                | 0.06  | 1.2 |
+| Lung Cancer | 3.0 · 10⁻⁶                | 0.075 | 2.5 |
+
+Cap `H_cum` w mortality: **1.5** (chroni exp() przed wybuchem).
+
+### 17.7 Score gridsearch (oba tryby)
+
+```
+score(FM, MM) = (final_pop − initial_pop) / initial_pop × 100      [%]
+```
+
+**Proxy (analityczny)**:
+
+```
+score_proxy(FM, MM) = ((1 + (BASE_CBR · FM − BASE_CDR · MM))^50 − 1) × 100
+gdzie BASE_CBR = 0.00830, BASE_CDR = 0.01560
+```
+
+**ABM**: pełna symulacja Monte Carlo (50k agentów × 600 mies. → empiryczne `final_pop`).
+
+### 17.8 Reguła stabilności
+
+**Proxy** (liniowa, ze wzoru `effective_CBR = effective_CDR`):
+
+```
+FM_proxy(MM) = (BASE_CDR / BASE_CBR) × MM = 1.88 · MM
+```
+
+**ABM** (nieliniowa krzywa nasycenia, fit empiryczny):
+
+```
+FM_ABM(MM) ≈ 1.50 + 0.36 · tanh(2 · (MM − 0.4))
+asymptota:  lim_{MM → ∞} FM_ABM(MM) ≈ 2.05
+```
+
+Rozbieżność:
+
+```
+ΔFM(MM) = FM_ABM(MM) − FM_proxy(MM)
+        > 1.0 dla MM < 0.45  (proxy mocno niedoszacowuje)
+        < 0   dla MM > 1.15  (proxy przeszacowuje)
+```
+
+### 17.9 Disability score i wpływ chorób
+
+```
+disability_score = Σ_{d ∈ active_diseases} DW_d
+```
+
+gdzie DW_CVD = 0.25, DW_LungCancer = 0.55. Wpływ na płodność:
+
+```
+fertility_reduction = max(1 − 0.02·n_conditions − 0.04·disability_score, 0.7)
+```
+
+### 17.10 Newborn — inicjalizacja
+
+```
+sex                 ∼ Bernoulli(0.5)                       # 50/50 (uproszczenie)
+age_months          = 0
+household_id        = mother.household_id                 # dziedziczy
+zone_id             = mother.zone_id
+diseases[d]         = 0  ∀ d
+risk_factors[rf]    = 0  ∀ rf                              # brak dynamic acquisition
+cumulative_hazard[d] = 0  ∀ d                              # startujący od 0
 ```
 
 ---
